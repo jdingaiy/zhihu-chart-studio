@@ -1,0 +1,3314 @@
+{
+  "schema": "zhihu-chart-studio/1",
+  "theme": "light",
+  "sharedTooltip": {
+    "tooltip": true,
+    "tooltipMinWidth": 160,
+    "tooltipGap": 24,
+    "tooltipNameColor": "#36393f",
+    "tooltipBg": "#ffffff",
+    "tooltipBorder": "#e2e8f0",
+    "tooltipBorderWidth": 1,
+    "tooltipRadius": 8,
+    "tooltipPadding": 12,
+    "tooltipOffset": 12,
+    "tooltipShadow": true,
+    "tooltipDate": true,
+    "tooltipName": true,
+    "tooltipUnit": true,
+    "tooltipLabelColor": "#8c99ac",
+    "tooltipLabelSize": 11,
+    "tooltipText": "#2878ff",
+    "tooltipFont": 13,
+    "tooltipBold": true,
+    "tokenBindings": {
+      "tooltipNameColor": "MapText03A",
+      "tooltipBg": "MapUIFrame99C",
+      "tooltipBorder": "MapUIFrame09A",
+      "tooltipLabelColor": "MapText06A",
+      "tooltipText": "MapBrand"
+    }
+  },
+  "sharedAppearance": {
+    "bg": "#ffffff",
+    "marginTop": 10,
+    "marginRight": 8,
+    "marginBottom": 4,
+    "marginLeft": 0,
+    "xShow": true,
+    "xColor": "#8c99ac",
+    "xFont": 10,
+    "xAngle": 0,
+    "xHeight": 20,
+    "xGap": 8,
+    "xTickMargin": 8,
+    "xPadding": 0,
+    "xInterval": "auto",
+    "xAxisLine": false,
+    "xTickLine": false,
+    "yShow": true,
+    "yColor": "#8c99ac",
+    "yFont": 11,
+    "yAutoWidth": true,
+    "yWidth": 41,
+    "yTickMargin": 6,
+    "yTicks": 5,
+    "yAxisLine": false,
+    "yTickLine": false,
+    "axisColor": "#d9e1eb",
+    "grid": true,
+    "gridColor": "#e8edf4",
+    "gridHorizontal": true,
+    "gridVertical": false,
+    "gridWidth": 1,
+    "gridDash": "solid",
+    "gridOpacity": 100,
+    "hoverLine": true,
+    "cursorColor": "#9aa5b5",
+    "cursorWidth": 1,
+    "cursorDash": "dashed",
+    "cursorOpacity": 100,
+    "tokenBindings": {
+      "bg": "MapUIFrame99A",
+      "gridColor": "MapUIFrame09A",
+      "cursorColor": "MapText06A",
+      "xColor": "MapText06A",
+      "yColor": "MapText06A",
+      "axisColor": "MapUIFrame08A"
+    }
+  },
+  "designTokens": {
+    "light": {
+      "MapText03A": "#36393f",
+      "MapCriticalTip": "#d95350",
+      "MapUIFrame10A": "#f5f7fa",
+      "MapText02A": "#191b1f",
+      "MapUIFrame99A": "#ffffff",
+      "MapUIFrame09B": "#e8e9ed",
+      "MapUIFrame09A": "#e8eaed",
+      "MapUIFrame08A": "#c3c7cf",
+      "MapText06A": "#9196a1",
+      "MapCriticalHot": "#d95350",
+      "MapPositiveLike": "#f05159",
+      "MapPositiveDonate": "#f05159",
+      "MapPositiveAlt": "#ff65c6",
+      "MapLiveBrand": "#ff4b6f",
+      "MapUIAccentA": "#fa7991",
+      "MapHighlight": "#f77932",
+      "MapCommerce": "#ff501a",
+      "MapCommerceAlt": "#ff7d55",
+      "MapTime": "#f77932",
+      "MapFavorite": "#fa9d14",
+      "MapUIAccentB": "#fcd60d",
+      "MapPass": "#67c23a",
+      "MapUIAccentC": "#16b89b",
+      "MapBrand": "#1772f6",
+      "MapBrandAlt": "#05aaf4",
+      "MapBrandLight": "#acd2ff",
+      "MapVIPKnowledge": "#3952a1",
+      "MapVIPKnowledgeAlt": "#3952a1",
+      "MapVIPKnowledgeLight": "#f4f7ff",
+      "MapVIPKnowledgeLightAlt": "#f4f7ff",
+      "MapSVIPBrand": "#384264",
+      "MapSVIPBrandAlt": "#142456",
+      "MapInfo": "#1772f6",
+      "MapInfoSub": "#8590a6",
+      "MapLink": "#084289",
+      "MapAI": "#574cf8",
+      "MapEvent": "#6a5ff3",
+      "MapReward": "#a5542f",
+      "MapVIPBrand": "#ce994f",
+      "MapVIPUIFrame": "#f8e2c4",
+      "MapVIPUIFrameAlt": "#f3bb6c",
+      "MapVIPText01": "#754e19",
+      "MapVIPText02": "#754e19",
+      "MapUIFrame01A": "#000000",
+      "MapText04A": "#545962",
+      "MapText05A": "#81858f",
+      "MapText07A": "#adb1b7",
+      "MapText99B": "#ffffff",
+      "MapUIFrame07A": "#adb1b7",
+      "MapUIFrame08B": "#c3c7cf",
+      "MapUIFrame10C": "#f5f7fa",
+      "MapUIFrame99B": "#ffffff",
+      "MapUIFrame99C": "#ffffff"
+    },
+    "dark": {
+      "MapText03A": "#c3c7cf",
+      "MapCriticalTip": "#d95350",
+      "MapUIFrame10A": "#222429",
+      "MapText02A": "#ffffff",
+      "MapUIFrame99A": "#191b1f",
+      "MapUIFrame09B": "#152029",
+      "MapUIFrame09A": "#272a30",
+      "MapUIFrame08A": "#272a30",
+      "MapText06A": "#9196a1",
+      "MapCriticalHot": "#d95350",
+      "MapPositiveLike": "#f05159",
+      "MapPositiveDonate": "#f05159",
+      "MapPositiveAlt": "#ff65c6",
+      "MapLiveBrand": "#ff5066",
+      "MapUIAccentA": "#fa7991",
+      "MapHighlight": "#f77932",
+      "MapCommerce": "#ff7744",
+      "MapCommerceAlt": "#ffa280",
+      "MapTime": "#f77932",
+      "MapFavorite": "#fa9d14",
+      "MapUIAccentB": "#fcd60d",
+      "MapPass": "#92cb76",
+      "MapUIAccentC": "#16b89b",
+      "MapBrand": "#558eff",
+      "MapBrandAlt": "#55b5ff",
+      "MapBrandLight": "#1772f6",
+      "MapVIPKnowledge": "#b2c4ff",
+      "MapVIPKnowledgeAlt": "#3952a1",
+      "MapVIPKnowledgeLight": "#1f2639",
+      "MapVIPKnowledgeLightAlt": "#f4f7ff",
+      "MapSVIPBrand": "#384264",
+      "MapSVIPBrandAlt": "#142456",
+      "MapInfo": "#558eff",
+      "MapInfoSub": "#606a80",
+      "MapLink": "#5171b0",
+      "MapAI": "#6a5ff3",
+      "MapEvent": "#6a5ff3",
+      "MapReward": "#d28262",
+      "MapVIPBrand": "#cc9850",
+      "MapVIPUIFrame": "#f8e2c4",
+      "MapVIPUIFrameAlt": "#f3bb6c",
+      "MapVIPText01": "#754e19",
+      "MapVIPText02": "#f8e2c4",
+      "MapUIFrame01A": "#000000",
+      "MapText04A": "#c3c7cf",
+      "MapText05A": "#9196a1",
+      "MapText07A": "#5a5e66",
+      "MapText99B": "#ffffff",
+      "MapUIFrame07A": "#5a5e66",
+      "MapUIFrame08B": "#222429",
+      "MapUIFrame10C": "#000000",
+      "MapUIFrame99B": "#ffffff",
+      "MapUIFrame99C": "#272a30"
+    }
+  },
+  "tokenMetadata": {
+    "MapText03A": {
+      "label": "Text/03A 正文 MapText03A",
+      "group": "Text"
+    },
+    "MapCriticalTip": {
+      "label": "Red/提示红 MapCriticalTip",
+      "group": "Red"
+    },
+    "MapUIFrame10A": {
+      "label": "Frame/10A 组件常用灰 MapUIFrame10A",
+      "group": "Frame"
+    },
+    "MapText02A": {
+      "label": "Text/02A 主标题 MapText02A",
+      "group": "Text"
+    },
+    "MapUIFrame99A": {
+      "label": "Frame/99A 页面白背景 MapUIFrame99A",
+      "group": "Frame"
+    },
+    "MapUIFrame09B": {
+      "label": "Frame/09B 浅色分割线2 MapUIFrame09B",
+      "group": "Frame"
+    },
+    "MapUIFrame09A": {
+      "label": "Frame/09A 浅色分割线1 MapUIFrame09A",
+      "group": "Frame"
+    },
+    "MapUIFrame08A": {
+      "label": "Frame/08A 深色分割线1 MapUIFrame08A",
+      "group": "Frame"
+    },
+    "MapText06A": {
+      "label": "Text/06A 辅助信息 MapText06A",
+      "group": "Text"
+    },
+    "MapCriticalHot": {
+      "label": "Red/关键红 MapCriticalHot（隐藏）",
+      "group": "Red"
+    },
+    "MapPositiveLike": {
+      "label": "Pink/互动粉 MapPositiveLike",
+      "group": "Pink"
+    },
+    "MapPositiveDonate": {
+      "label": "Pink/赞赏粉 MapPositiveDonate（隐藏）",
+      "group": "Pink"
+    },
+    "MapPositiveAlt": {
+      "label": "Pink/赞赏粉扩展 MapPositiveAlt（隐藏）",
+      "group": "Pink"
+    },
+    "MapLiveBrand": {
+      "label": "Pink/直播粉 MapLiveBrand",
+      "group": "Pink"
+    },
+    "MapUIAccentA": {
+      "label": "Pink/强调粉 MapUIAccentA",
+      "group": "Pink"
+    },
+    "MapHighlight": {
+      "label": "Orange/高亮橘 MapHighlight",
+      "group": "Orange"
+    },
+    "MapCommerce": {
+      "label": "Orange/商业橘 MapCommerce",
+      "group": "Orange"
+    },
+    "MapCommerceAlt": {
+      "label": "Orange/商业橘扩展 MapCommerceAlt",
+      "group": "Orange"
+    },
+    "MapTime": {
+      "label": "Orange/时效橘 MapTime（隐藏）",
+      "group": "Orange"
+    },
+    "MapFavorite": {
+      "label": "Tangerine/收藏桔 MapFavorite",
+      "group": "Tangerine"
+    },
+    "MapUIAccentB": {
+      "label": "Yellow/强调黄 MapUIAccentB",
+      "group": "Yellow"
+    },
+    "MapPass": {
+      "label": "Green/通过绿 MapPass",
+      "group": "Green"
+    },
+    "MapUIAccentC": {
+      "label": "Green/强调绿 MapUIAccentC",
+      "group": "Green"
+    },
+    "MapBrand": {
+      "label": "Blue/品牌蓝 MapBrand",
+      "group": "Blue"
+    },
+    "MapBrandAlt": {
+      "label": "Blue/品牌蓝扩展 MapBrandAlt（隐藏）",
+      "group": "Blue"
+    },
+    "MapBrandLight": {
+      "label": "Blue/品牌蓝浅色 MapBrandLight",
+      "group": "Blue"
+    },
+    "MapVIPKnowledge": {
+      "label": "Blue/知识会员 MapVIPKnowledge",
+      "group": "Blue"
+    },
+    "MapVIPKnowledgeAlt": {
+      "label": "Blue/知识会员单色 MapVIPKnowledgeAlt",
+      "group": "Blue"
+    },
+    "MapVIPKnowledgeLight": {
+      "label": "Blue/知识会员浅色 MapVIPKnowledgeLight",
+      "group": "Blue"
+    },
+    "MapVIPKnowledgeLightAlt": {
+      "label": "Blue/知识会员浅色单色 MapVIPKnowledgeLightAlt",
+      "group": "Blue"
+    },
+    "MapSVIPBrand": {
+      "label": "Blue/超级会员品牌蓝 MapSVIPBrand",
+      "group": "Blue"
+    },
+    "MapSVIPBrandAlt": {
+      "label": "Blue/超级会员蓝扩展 MapSVIPBrandAlt",
+      "group": "Blue"
+    },
+    "MapInfo": {
+      "label": "Blue/信息蓝 MapInfo（隐藏）",
+      "group": "Blue"
+    },
+    "MapInfoSub": {
+      "label": "Blue/次级信息蓝 MapInfoSub",
+      "group": "Blue"
+    },
+    "MapLink": {
+      "label": "Blue/链接蓝 MapLink",
+      "group": "Blue"
+    },
+    "MapAI": {
+      "label": "Purple/AI 紫 MapAI",
+      "group": "Purple"
+    },
+    "MapEvent": {
+      "label": "Purple/活动紫 MapEvent",
+      "group": "Purple"
+    },
+    "MapReward": {
+      "label": "Brown/正向金 MapReward",
+      "group": "Brown"
+    },
+    "MapVIPBrand": {
+      "label": "Golden/会员品牌金 MapVIPBrand",
+      "group": "Golden"
+    },
+    "MapVIPUIFrame": {
+      "label": "Golden/会员 UI 金 MapVIPUIFrame",
+      "group": "Golden"
+    },
+    "MapVIPUIFrameAlt": {
+      "label": "Golden/会员 UI 金扩展 MapVIPUIFrameAlt",
+      "group": "Golden"
+    },
+    "MapVIPText01": {
+      "label": "Golden/会员文本金01 MapVIPText01",
+      "group": "Golden"
+    },
+    "MapVIPText02": {
+      "label": "Golden/会员文本金02 MapVIPText02",
+      "group": "Golden"
+    },
+    "MapUIFrame01A": {
+      "label": "Frame/01A 遮罩或投影 MapUIFrame01A",
+      "group": "Frame"
+    },
+    "MapText04A": {
+      "label": "Text/04A 次级文本 MapText04A",
+      "group": "Text"
+    },
+    "MapText05A": {
+      "label": "Text/05A 过渡文本 MapText05A",
+      "group": "Text"
+    },
+    "MapText07A": {
+      "label": "Text/07A 预置或失效 MapText07A",
+      "group": "Text"
+    },
+    "MapText99B": {
+      "label": "Text/99B 白色文本 MapText99B",
+      "group": "Text"
+    },
+    "MapUIFrame07A": {
+      "label": "Frame/07A 失效禁用 MapUIFrame07A",
+      "group": "Frame"
+    },
+    "MapUIFrame08B": {
+      "label": "Frame/08B 深色分割线2 MapUIFrame08B",
+      "group": "Frame"
+    },
+    "MapUIFrame10C": {
+      "label": "Frame/10C 页面灰背景 MapUIFrame10C",
+      "group": "Frame"
+    },
+    "MapUIFrame99B": {
+      "label": "Frame/99B 始终白色 MapUIFrame99B",
+      "group": "Frame"
+    },
+    "MapUIFrame99C": {
+      "label": "Frame/99C 悬浮控件白 MapUIFrame99C",
+      "group": "Frame"
+    }
+  },
+  "figma": {
+    "fileKey": "sWhGJbvGtUe0D0JIia4du5",
+    "lightNode": "354:524",
+    "darkNode": "354:655"
+  },
+  "libraries": {
+    "react": "18.3.1",
+    "recharts": "2.15.4",
+    "echarts": "5.6.0"
+  },
+  "configs": {
+    "article-pc": {
+      "genderIconSize": 32,
+      "genderIconOpacity": 60,
+      "regionPercentDecimals": 2,
+      "trafficLegendGap": 16,
+      "trafficLegendRowGap": 16,
+      "regionRankVersion": 1,
+      "regionBarColor": "#1772f6",
+      "regionBarWidth": 10,
+      "regionBarRadius": 8,
+      "regionBarOpacity": 100,
+      "regionRankCount": 5,
+      "regionRankGradient": true,
+      "regionRankEndOpacity": 28,
+      "regionRankNameColor": "#9196a1",
+      "regionRankValueColor": "#9196a1",
+      "regionRankNameSize": 12,
+      "regionRankValueSize": 12,
+      "regionRankShowNames": true,
+      "regionRankShowValues": true,
+      "regionRankNumberFormat": "raw",
+      "regionBarTrack": false,
+      "regionTrackColor": "#f5f7fa",
+      "yAutoWidth": true,
+      "trafficPaletteVersion": 2,
+      "trafficGradientStart": 100,
+      "trafficGradientEnd": 70,
+      "tooltipMinWidth": 160,
+      "tooltipGap": 24,
+      "tooltipNameColor": "#36393f",
+      "mapStrokeColor": "#ffffff",
+      "mapStrokeWidth": 0.8,
+      "mapStrokeOpacity": 100,
+      "mapStrokeType": "solid",
+      "mapHoverStrokeColor": "#1772f6",
+      "mapHoverStrokeWidth": 1.5,
+      "mapBoundaryColor": "#9196a1",
+      "mapBoundaryWidth": 1,
+      "mapBoundaryOpacity": 90,
+      "seriesOpacity": 80,
+      "mobileWidthVersion": 1,
+      "distributionMetric": "readers",
+      "ecStyleVersion": 1,
+      "tokenSchema": 1,
+      "tokenTheme": "light",
+      "tokenBindings": {
+        "regionBarColor": "MapBrand",
+        "regionRankNameColor": "MapText06A",
+        "regionRankValueColor": "MapText06A",
+        "regionTrackColor": "MapUIFrame10A",
+        "tooltipNameColor": "MapText03A",
+        "mapStrokeColor": "MapUIFrame99A",
+        "mapHoverStrokeColor": "MapBrand",
+        "mapBoundaryColor": "MapText06A",
+        "series0": "MapBrand",
+        "series1": "MapUIAccentC",
+        "series2": "MapPass",
+        "series3": "MapUIAccentB",
+        "series4": "MapHighlight",
+        "series5": "MapCriticalTip",
+        "series6": "MapPositiveAlt",
+        "series7": "MapAI",
+        "bg": "MapUIFrame99A",
+        "text": "MapText06A",
+        "gridColor": "MapUIFrame09A",
+        "fillTop": "MapBrand",
+        "fillBottom": "MapBrand",
+        "dotFill": "MapUIFrame99A",
+        "dotStroke": "MapBrand",
+        "activeFill": "MapUIFrame99A",
+        "activeStroke": "MapBrand",
+        "cursorColor": "MapText06A",
+        "tooltipBg": "MapUIFrame99C",
+        "tooltipBorder": "MapUIFrame09A",
+        "tooltipLabelColor": "MapText06A",
+        "tooltipText": "MapBrand",
+        "xColor": "MapText06A",
+        "yColor": "MapText06A",
+        "axisColor": "MapUIFrame08A"
+      },
+      "_revision": 3,
+      "colors": [
+        "#1772f6",
+        "#16b89b",
+        "#67c23a",
+        "#fcd60d",
+        "#f77932",
+        "#d95350",
+        "#ff65c6",
+        "#574cf8"
+      ],
+      "bg": "#ffffff",
+      "text": "#9196a1",
+      "gridColor": "#e8eaed",
+      "width": 2,
+      "opacity": 12,
+      "font": 11,
+      "height": 160,
+      "radius": 10,
+      "inner": 65,
+      "bar": 24,
+      "smooth": true,
+      "dots": true,
+      "grid": true,
+      "legend": false,
+      "tooltip": true,
+      "labels": false,
+      "animation": false,
+      "type": "area",
+      "title": "",
+      "note": "注：最多展示 30 天的数据",
+      "period": 7,
+      "metric": "exposure",
+      "showNote": true,
+      "widthMode": "fixed",
+      "cardWidth": 820,
+      "marginTop": 10,
+      "marginRight": 8,
+      "marginBottom": 4,
+      "marginLeft": 0,
+      "curve": "monotone",
+      "lineDash": "solid",
+      "lineCap": "round",
+      "lineOpacity": 100,
+      "fillEnabled": true,
+      "fillTop": "#1772f6",
+      "fillBottom": "#1772f6",
+      "fillEndOpacity": 0,
+      "dotShape": "circle",
+      "dotRadius": 3,
+      "dotFill": "#ffffff",
+      "dotStroke": "#1772f6",
+      "dotStrokeWidth": 1.5,
+      "dotOpacity": 100,
+      "hoverDot": true,
+      "activeShape": "circle",
+      "activeRadius": 4,
+      "activeFill": "#ffffff",
+      "activeStroke": "#1772f6",
+      "activeStrokeWidth": 2,
+      "activeOpacity": 100,
+      "hoverLine": true,
+      "cursorColor": "#9196a1",
+      "cursorWidth": 1,
+      "cursorDash": "dashed",
+      "cursorOpacity": 100,
+      "tooltipBg": "#ffffff",
+      "tooltipBorder": "#e8eaed",
+      "tooltipBorderWidth": 1,
+      "tooltipRadius": 8,
+      "tooltipPadding": 12,
+      "tooltipOffset": 12,
+      "tooltipShadow": true,
+      "tooltipDate": true,
+      "tooltipName": true,
+      "tooltipUnit": true,
+      "tooltipLabelColor": "#9196a1",
+      "tooltipLabelSize": 11,
+      "tooltipText": "#1772f6",
+      "tooltipStyleVersion": 1,
+      "tooltipFont": 13,
+      "tooltipBold": true,
+      "xShow": true,
+      "xColor": "#9196a1",
+      "xFont": 10,
+      "xAngle": 0,
+      "xHeight": 20,
+      "xGap": 8,
+      "xTickMargin": 8,
+      "xPadding": 0,
+      "xInterval": "auto",
+      "xAxisLine": false,
+      "xTickLine": false,
+      "yShow": true,
+      "yColor": "#9196a1",
+      "yFont": 11,
+      "yWidth": 41,
+      "yTickMargin": 6,
+      "yTicks": 5,
+      "yFormat": "compact",
+      "yDecimals": 1,
+      "yMin": 0,
+      "yMaxAuto": true,
+      "yMax": 4000,
+      "yAxisLine": false,
+      "yTickLine": false,
+      "axisColor": "#c3c7cf",
+      "gridHorizontal": true,
+      "gridVertical": false,
+      "gridWidth": 1,
+      "gridDash": "solid",
+      "gridOpacity": 100,
+      "animationDuration": 400
+    },
+    "article-mobile": {
+      "genderIconSize": 32,
+      "genderIconOpacity": 60,
+      "regionPercentDecimals": 2,
+      "trafficLegendGap": 16,
+      "trafficLegendRowGap": 16,
+      "regionRankVersion": 1,
+      "regionBarColor": "#1772f6",
+      "regionBarWidth": 10,
+      "regionBarRadius": 8,
+      "regionBarOpacity": 100,
+      "regionRankCount": 5,
+      "regionRankGradient": true,
+      "regionRankEndOpacity": 28,
+      "regionRankNameColor": "#9196a1",
+      "regionRankValueColor": "#9196a1",
+      "regionRankNameSize": 12,
+      "regionRankValueSize": 12,
+      "regionRankShowNames": true,
+      "regionRankShowValues": true,
+      "regionRankNumberFormat": "raw",
+      "regionBarTrack": false,
+      "regionTrackColor": "#f5f7fa",
+      "yAutoWidth": true,
+      "trafficPaletteVersion": 2,
+      "trafficGradientStart": 100,
+      "trafficGradientEnd": 70,
+      "tooltipMinWidth": 160,
+      "tooltipGap": 24,
+      "tooltipNameColor": "#36393f",
+      "mapStrokeColor": "#ffffff",
+      "mapStrokeWidth": 0.8,
+      "mapStrokeOpacity": 100,
+      "mapStrokeType": "solid",
+      "mapHoverStrokeColor": "#1772f6",
+      "mapHoverStrokeWidth": 1.5,
+      "mapBoundaryColor": "#9196a1",
+      "mapBoundaryWidth": 1,
+      "mapBoundaryOpacity": 90,
+      "seriesOpacity": 80,
+      "mobileWidthVersion": 1,
+      "distributionMetric": "readers",
+      "ecStyleVersion": 1,
+      "tokenSchema": 1,
+      "tokenTheme": "light",
+      "tokenBindings": {
+        "regionBarColor": "MapBrand",
+        "regionRankNameColor": "MapText06A",
+        "regionRankValueColor": "MapText06A",
+        "regionTrackColor": "MapUIFrame10A",
+        "tooltipNameColor": "MapText03A",
+        "mapStrokeColor": "MapUIFrame99A",
+        "mapHoverStrokeColor": "MapBrand",
+        "mapBoundaryColor": "MapText06A",
+        "series0": "MapBrand",
+        "series1": "MapBrandLight",
+        "series2": "MapUIAccentC",
+        "series3": "MapAI",
+        "series4": "MapHighlight",
+        "series5": "MapCriticalTip",
+        "series6": "MapPositiveAlt",
+        "series7": "MapAI",
+        "bg": "MapUIFrame99A",
+        "text": "MapText06A",
+        "gridColor": "MapUIFrame09A",
+        "fillTop": "MapBrand",
+        "fillBottom": "MapBrand",
+        "dotFill": "MapUIFrame99A",
+        "dotStroke": "MapBrand",
+        "activeFill": "MapUIFrame99A",
+        "activeStroke": "MapBrand",
+        "cursorColor": "MapText06A",
+        "tooltipBg": "MapUIFrame99C",
+        "tooltipBorder": "MapUIFrame09A",
+        "tooltipLabelColor": "MapText06A",
+        "tooltipText": "MapBrand",
+        "xColor": "MapText06A",
+        "yColor": "MapText06A",
+        "axisColor": "MapUIFrame08A"
+      },
+      "_revision": 3,
+      "colors": [
+        "#1772f6",
+        "#acd2ff",
+        "#16b89b",
+        "#574cf8",
+        "#f77932",
+        "#d95350",
+        "#ff65c6",
+        "#574cf8"
+      ],
+      "bg": "#ffffff",
+      "text": "#9196a1",
+      "gridColor": "#e8eaed",
+      "width": 2,
+      "opacity": 16,
+      "font": 11,
+      "height": 150,
+      "radius": 10,
+      "inner": 65,
+      "bar": 24,
+      "smooth": false,
+      "dots": false,
+      "grid": true,
+      "legend": false,
+      "tooltip": true,
+      "labels": false,
+      "animation": false,
+      "type": "area",
+      "title": "",
+      "note": "注：最多展示 30 天的数据",
+      "period": 14,
+      "metric": "exposure",
+      "showNote": true,
+      "widthMode": "fixed",
+      "cardWidth": 393,
+      "marginTop": 10,
+      "marginRight": 8,
+      "marginBottom": 4,
+      "marginLeft": 0,
+      "curve": "monotone",
+      "lineDash": "solid",
+      "lineCap": "round",
+      "lineOpacity": 100,
+      "fillEnabled": true,
+      "fillTop": "#1772f6",
+      "fillBottom": "#1772f6",
+      "fillEndOpacity": 0,
+      "dotShape": "circle",
+      "dotRadius": 3,
+      "dotFill": "#ffffff",
+      "dotStroke": "#1772f6",
+      "dotStrokeWidth": 1.5,
+      "dotOpacity": 100,
+      "hoverDot": true,
+      "activeShape": "circle",
+      "activeRadius": 4,
+      "activeFill": "#ffffff",
+      "activeStroke": "#1772f6",
+      "activeStrokeWidth": 2,
+      "activeOpacity": 100,
+      "hoverLine": true,
+      "cursorColor": "#9196a1",
+      "cursorWidth": 1,
+      "cursorDash": "dashed",
+      "cursorOpacity": 100,
+      "tooltipBg": "#ffffff",
+      "tooltipBorder": "#e8eaed",
+      "tooltipBorderWidth": 1,
+      "tooltipRadius": 8,
+      "tooltipPadding": 12,
+      "tooltipOffset": 12,
+      "tooltipShadow": true,
+      "tooltipDate": true,
+      "tooltipName": true,
+      "tooltipUnit": true,
+      "tooltipLabelColor": "#9196a1",
+      "tooltipLabelSize": 11,
+      "tooltipText": "#1772f6",
+      "tooltipStyleVersion": 1,
+      "tooltipFont": 13,
+      "tooltipBold": true,
+      "xShow": true,
+      "xColor": "#9196a1",
+      "xFont": 10,
+      "xAngle": 0,
+      "xHeight": 20,
+      "xGap": 8,
+      "xTickMargin": 8,
+      "xPadding": 0,
+      "xInterval": "auto",
+      "xAxisLine": false,
+      "xTickLine": false,
+      "yShow": true,
+      "yColor": "#9196a1",
+      "yFont": 11,
+      "yWidth": 41,
+      "yTickMargin": 6,
+      "yTicks": 5,
+      "yFormat": "raw",
+      "yDecimals": 1,
+      "yMin": 0,
+      "yMaxAuto": true,
+      "yMax": 4000,
+      "yAxisLine": false,
+      "yTickLine": false,
+      "axisColor": "#c3c7cf",
+      "gridHorizontal": true,
+      "gridVertical": false,
+      "gridWidth": 1,
+      "gridDash": "solid",
+      "gridOpacity": 100,
+      "animationDuration": 400
+    },
+    "traffic-pc": {
+      "genderIconSize": 32,
+      "genderIconOpacity": 60,
+      "regionPercentDecimals": 2,
+      "trafficLegendGap": 16,
+      "trafficLegendRowGap": 16,
+      "regionRankVersion": 1,
+      "regionBarColor": "#1772f6",
+      "regionBarWidth": 10,
+      "regionBarRadius": 8,
+      "regionBarOpacity": 100,
+      "regionRankCount": 5,
+      "regionRankGradient": true,
+      "regionRankEndOpacity": 28,
+      "regionRankNameColor": "#9196a1",
+      "regionRankValueColor": "#9196a1",
+      "regionRankNameSize": 12,
+      "regionRankValueSize": 12,
+      "regionRankShowNames": true,
+      "regionRankShowValues": true,
+      "regionRankNumberFormat": "raw",
+      "regionBarTrack": false,
+      "regionTrackColor": "#f5f7fa",
+      "yAutoWidth": true,
+      "trafficPaletteVersion": 2,
+      "trafficGradientStart": 100,
+      "trafficGradientEnd": 70,
+      "tooltipMinWidth": 160,
+      "tooltipGap": 24,
+      "tooltipNameColor": "#36393f",
+      "mapStrokeColor": "#ffffff",
+      "mapStrokeWidth": 0.8,
+      "mapStrokeOpacity": 100,
+      "mapStrokeType": "solid",
+      "mapHoverStrokeColor": "#1772f6",
+      "mapHoverStrokeWidth": 1.5,
+      "mapBoundaryColor": "#9196a1",
+      "mapBoundaryWidth": 1,
+      "mapBoundaryOpacity": 90,
+      "seriesOpacity": 100,
+      "mobileWidthVersion": 1,
+      "distributionMetric": "readers",
+      "ecStyleVersion": 1,
+      "tokenSchema": 1,
+      "tokenTheme": "light",
+      "tokenBindings": {
+        "regionBarColor": "MapBrand",
+        "regionRankNameColor": "MapText06A",
+        "regionRankValueColor": "MapText06A",
+        "regionTrackColor": "MapUIFrame10A",
+        "tooltipNameColor": "MapText03A",
+        "mapStrokeColor": "MapUIFrame99A",
+        "mapHoverStrokeColor": "MapBrand",
+        "mapBoundaryColor": "MapText06A",
+        "series0": "MapBrandAlt",
+        "series1": "MapBrandAlt",
+        "series2": "MapBrandAlt",
+        "series3": "MapBrandAlt",
+        "series4": "MapBrand",
+        "series5": "MapBrand",
+        "series6": "MapBrand",
+        "series7": "MapBrand",
+        "bg": "MapUIFrame99A",
+        "text": "MapText06A",
+        "gridColor": "MapUIFrame09A",
+        "fillTop": "MapBrand",
+        "fillBottom": "MapBrand",
+        "dotFill": "MapUIFrame99A",
+        "dotStroke": "MapBrand",
+        "activeFill": "MapUIFrame99A",
+        "activeStroke": "MapBrand",
+        "cursorColor": "MapText06A",
+        "tooltipBg": "MapUIFrame99C",
+        "tooltipBorder": "MapUIFrame09A",
+        "tooltipLabelColor": "MapText06A",
+        "tooltipText": "MapBrand",
+        "xColor": "MapText06A",
+        "yColor": "MapText06A",
+        "axisColor": "MapUIFrame08A"
+      },
+      "_revision": 3,
+      "colors": [
+        "#05aaf4",
+        "#05aaf4",
+        "#05aaf4",
+        "#05aaf4",
+        "#1772f6",
+        "#1772f6",
+        "#1772f6",
+        "#1772f6"
+      ],
+      "bg": "#ffffff",
+      "text": "#9196a1",
+      "gridColor": "#e8eaed",
+      "width": 2,
+      "opacity": 12,
+      "font": 12,
+      "height": 350,
+      "radius": 8,
+      "inner": 87,
+      "bar": 10,
+      "smooth": true,
+      "dots": true,
+      "grid": true,
+      "legend": true,
+      "tooltip": true,
+      "labels": false,
+      "animation": false,
+      "type": "area",
+      "title": "",
+      "note": "注：最多展示 30 天的数据",
+      "period": 7,
+      "metric": "exposure",
+      "showNote": true,
+      "widthMode": "fixed",
+      "cardWidth": 820,
+      "marginTop": 10,
+      "marginRight": 8,
+      "marginBottom": 4,
+      "marginLeft": 0,
+      "curve": "monotone",
+      "lineDash": "solid",
+      "lineCap": "round",
+      "lineOpacity": 100,
+      "fillEnabled": true,
+      "fillTop": "#1772f6",
+      "fillBottom": "#1772f6",
+      "fillEndOpacity": 0,
+      "dotShape": "circle",
+      "dotRadius": 3,
+      "dotFill": "#ffffff",
+      "dotStroke": "#1772f6",
+      "dotStrokeWidth": 1.5,
+      "dotOpacity": 100,
+      "hoverDot": true,
+      "activeShape": "circle",
+      "activeRadius": 4,
+      "activeFill": "#ffffff",
+      "activeStroke": "#1772f6",
+      "activeStrokeWidth": 2,
+      "activeOpacity": 100,
+      "hoverLine": true,
+      "cursorColor": "#9196a1",
+      "cursorWidth": 1,
+      "cursorDash": "dashed",
+      "cursorOpacity": 100,
+      "tooltipBg": "#ffffff",
+      "tooltipBorder": "#e8eaed",
+      "tooltipBorderWidth": 1,
+      "tooltipRadius": 8,
+      "tooltipPadding": 12,
+      "tooltipOffset": 12,
+      "tooltipShadow": true,
+      "tooltipDate": true,
+      "tooltipName": true,
+      "tooltipUnit": true,
+      "tooltipLabelColor": "#9196a1",
+      "tooltipLabelSize": 11,
+      "tooltipText": "#1772f6",
+      "tooltipStyleVersion": 1,
+      "tooltipFont": 13,
+      "tooltipBold": true,
+      "xShow": true,
+      "xColor": "#9196a1",
+      "xFont": 10,
+      "xAngle": 0,
+      "xHeight": 20,
+      "xGap": 8,
+      "xTickMargin": 8,
+      "xPadding": 0,
+      "xInterval": "auto",
+      "xAxisLine": false,
+      "xTickLine": false,
+      "yShow": true,
+      "yColor": "#9196a1",
+      "yFont": 11,
+      "yWidth": 41,
+      "yTickMargin": 6,
+      "yTicks": 5,
+      "yFormat": "compact",
+      "yDecimals": 1,
+      "yMin": 0,
+      "yMaxAuto": true,
+      "yMax": 4000,
+      "yAxisLine": false,
+      "yTickLine": false,
+      "axisColor": "#c3c7cf",
+      "gridHorizontal": true,
+      "gridVertical": false,
+      "gridWidth": 1,
+      "gridDash": "solid",
+      "gridOpacity": 100,
+      "animationDuration": 400,
+      "dataLabel": "阅读来源",
+      "dataUnit": "次"
+    },
+    "traffic-mobile": {
+      "genderIconSize": 32,
+      "genderIconOpacity": 60,
+      "regionPercentDecimals": 2,
+      "trafficLegendGap": 48,
+      "trafficLegendRowGap": 12,
+      "regionRankVersion": 1,
+      "regionBarColor": "#1772f6",
+      "regionBarWidth": 10,
+      "regionBarRadius": 8,
+      "regionBarOpacity": 100,
+      "regionRankCount": 5,
+      "regionRankGradient": true,
+      "regionRankEndOpacity": 28,
+      "regionRankNameColor": "#9196a1",
+      "regionRankValueColor": "#9196a1",
+      "regionRankNameSize": 12,
+      "regionRankValueSize": 12,
+      "regionRankShowNames": true,
+      "regionRankShowValues": true,
+      "regionRankNumberFormat": "raw",
+      "regionBarTrack": false,
+      "regionTrackColor": "#f5f7fa",
+      "yAutoWidth": true,
+      "trafficPaletteVersion": 2,
+      "trafficGradientStart": 100,
+      "trafficGradientEnd": 20,
+      "tooltipMinWidth": 160,
+      "tooltipGap": 24,
+      "tooltipNameColor": "#36393f",
+      "mapStrokeColor": "#ffffff",
+      "mapStrokeWidth": 0.8,
+      "mapStrokeOpacity": 100,
+      "mapStrokeType": "solid",
+      "mapHoverStrokeColor": "#1772f6",
+      "mapHoverStrokeWidth": 1.5,
+      "mapBoundaryColor": "#9196a1",
+      "mapBoundaryWidth": 1,
+      "mapBoundaryOpacity": 90,
+      "seriesOpacity": 100,
+      "mobileWidthVersion": 1,
+      "distributionMetric": "interactors",
+      "ecStyleVersion": 1,
+      "tokenSchema": 1,
+      "tokenTheme": "light",
+      "tokenBindings": {
+        "regionBarColor": "MapBrand",
+        "regionRankNameColor": "MapText06A",
+        "regionRankValueColor": "MapText06A",
+        "regionTrackColor": "MapUIFrame10A",
+        "tooltipNameColor": "MapText03A",
+        "mapStrokeColor": "MapUIFrame99A",
+        "mapHoverStrokeColor": "MapBrand",
+        "mapBoundaryColor": "MapText06A",
+        "series0": "MapBrand",
+        "series1": "MapBrandAlt",
+        "series2": "MapBrandAlt",
+        "series3": "MapBrandAlt",
+        "series4": "MapUIAccentC",
+        "series5": "MapBrand",
+        "series6": "MapBrand",
+        "series7": "MapBrand",
+        "bg": "MapUIFrame99A",
+        "text": "MapText06A",
+        "gridColor": "MapUIFrame09A",
+        "fillTop": "MapBrand",
+        "fillBottom": "MapBrand",
+        "dotFill": "MapUIFrame99A",
+        "dotStroke": "MapBrand",
+        "activeFill": "MapUIFrame99A",
+        "activeStroke": "MapBrand",
+        "cursorColor": "MapText06A",
+        "tooltipBg": "MapUIFrame99C",
+        "tooltipBorder": "MapUIFrame09A",
+        "tooltipLabelColor": "MapText06A",
+        "tooltipText": "MapBrand",
+        "xColor": "MapText06A",
+        "yColor": "MapText06A",
+        "axisColor": "MapUIFrame08A"
+      },
+      "_revision": 3,
+      "colors": [
+        "#1772f6",
+        "#05aaf4",
+        "#05aaf4",
+        "#05aaf4",
+        "#16b89b",
+        "#1772f6",
+        "#1772f6",
+        "#1772f6"
+      ],
+      "bg": "#ffffff",
+      "text": "#9196a1",
+      "gridColor": "#e8eaed",
+      "width": 2,
+      "opacity": 12,
+      "font": 11,
+      "height": 400,
+      "radius": 8,
+      "inner": 85,
+      "bar": 10,
+      "smooth": true,
+      "dots": true,
+      "grid": true,
+      "legend": true,
+      "tooltip": true,
+      "labels": false,
+      "animation": false,
+      "type": "area",
+      "title": "",
+      "note": "注：最多展示 30 天的数据",
+      "period": 7,
+      "metric": "exposure",
+      "showNote": true,
+      "widthMode": "fixed",
+      "cardWidth": 393,
+      "marginTop": 10,
+      "marginRight": 8,
+      "marginBottom": 4,
+      "marginLeft": 0,
+      "curve": "monotone",
+      "lineDash": "solid",
+      "lineCap": "round",
+      "lineOpacity": 100,
+      "fillEnabled": true,
+      "fillTop": "#1772f6",
+      "fillBottom": "#1772f6",
+      "fillEndOpacity": 0,
+      "dotShape": "circle",
+      "dotRadius": 3,
+      "dotFill": "#ffffff",
+      "dotStroke": "#1772f6",
+      "dotStrokeWidth": 1.5,
+      "dotOpacity": 100,
+      "hoverDot": true,
+      "activeShape": "circle",
+      "activeRadius": 4,
+      "activeFill": "#ffffff",
+      "activeStroke": "#1772f6",
+      "activeStrokeWidth": 2,
+      "activeOpacity": 100,
+      "hoverLine": true,
+      "cursorColor": "#9196a1",
+      "cursorWidth": 1,
+      "cursorDash": "dashed",
+      "cursorOpacity": 100,
+      "tooltipBg": "#ffffff",
+      "tooltipBorder": "#e8eaed",
+      "tooltipBorderWidth": 1,
+      "tooltipRadius": 8,
+      "tooltipPadding": 12,
+      "tooltipOffset": 12,
+      "tooltipShadow": true,
+      "tooltipDate": true,
+      "tooltipName": true,
+      "tooltipUnit": true,
+      "tooltipLabelColor": "#9196a1",
+      "tooltipLabelSize": 11,
+      "tooltipText": "#1772f6",
+      "tooltipStyleVersion": 1,
+      "tooltipFont": 13,
+      "tooltipBold": true,
+      "xShow": true,
+      "xColor": "#9196a1",
+      "xFont": 10,
+      "xAngle": 0,
+      "xHeight": 20,
+      "xGap": 8,
+      "xTickMargin": 8,
+      "xPadding": 0,
+      "xInterval": "auto",
+      "xAxisLine": false,
+      "xTickLine": false,
+      "yShow": true,
+      "yColor": "#9196a1",
+      "yFont": 11,
+      "yWidth": 41,
+      "yTickMargin": 6,
+      "yTicks": 5,
+      "yFormat": "compact",
+      "yDecimals": 1,
+      "yMin": 0,
+      "yMaxAuto": true,
+      "yMax": 4000,
+      "yAxisLine": false,
+      "yTickLine": false,
+      "axisColor": "#c3c7cf",
+      "gridHorizontal": true,
+      "gridVertical": false,
+      "gridWidth": 1,
+      "gridDash": "solid",
+      "gridOpacity": 100,
+      "animationDuration": 400,
+      "dataLabel": "互动来源",
+      "dataUnit": "次"
+    },
+    "gender-pc": {
+      "genderIconSize": 32,
+      "genderIconOpacity": 60,
+      "regionPercentDecimals": 2,
+      "trafficLegendGap": 16,
+      "trafficLegendRowGap": 16,
+      "regionRankVersion": 1,
+      "regionBarColor": "#1772f6",
+      "regionBarWidth": 10,
+      "regionBarRadius": 8,
+      "regionBarOpacity": 100,
+      "regionRankCount": 5,
+      "regionRankGradient": true,
+      "regionRankEndOpacity": 28,
+      "regionRankNameColor": "#9196a1",
+      "regionRankValueColor": "#9196a1",
+      "regionRankNameSize": 12,
+      "regionRankValueSize": 12,
+      "regionRankShowNames": true,
+      "regionRankShowValues": true,
+      "regionRankNumberFormat": "raw",
+      "regionBarTrack": false,
+      "regionTrackColor": "#f5f7fa",
+      "yAutoWidth": true,
+      "trafficPaletteVersion": 2,
+      "trafficGradientStart": 100,
+      "trafficGradientEnd": 70,
+      "tooltipMinWidth": 160,
+      "tooltipGap": 24,
+      "tooltipNameColor": "#36393f",
+      "mapStrokeColor": "#ffffff",
+      "mapStrokeWidth": 0.8,
+      "mapStrokeOpacity": 100,
+      "mapStrokeType": "solid",
+      "mapHoverStrokeColor": "#1772f6",
+      "mapHoverStrokeWidth": 1.5,
+      "mapBoundaryColor": "#9196a1",
+      "mapBoundaryWidth": 1,
+      "mapBoundaryOpacity": 90,
+      "seriesOpacity": 80,
+      "mobileWidthVersion": 1,
+      "distributionMetric": "readers",
+      "ecStyleVersion": 1,
+      "tokenSchema": 1,
+      "tokenTheme": "light",
+      "tokenBindings": {
+        "regionBarColor": "MapBrand",
+        "regionRankNameColor": "MapText06A",
+        "regionRankValueColor": "MapText06A",
+        "regionTrackColor": "MapUIFrame10A",
+        "tooltipNameColor": "MapText03A",
+        "mapStrokeColor": "MapUIFrame99A",
+        "mapHoverStrokeColor": "MapBrand",
+        "mapBoundaryColor": "MapText06A",
+        "series0": "MapBrand",
+        "series1": "MapLiveBrand",
+        "series2": "MapPass",
+        "series3": "MapUIAccentB",
+        "series4": "MapHighlight",
+        "series5": "MapCriticalTip",
+        "series6": "MapPositiveAlt",
+        "series7": "MapAI",
+        "bg": "MapUIFrame99A",
+        "text": "MapText06A",
+        "gridColor": "MapUIFrame09A",
+        "fillTop": "MapBrand",
+        "fillBottom": "MapBrand",
+        "dotFill": "MapUIFrame99A",
+        "dotStroke": "MapBrand",
+        "activeFill": "MapUIFrame99A",
+        "activeStroke": "MapBrand",
+        "cursorColor": "MapText06A",
+        "tooltipBg": "MapUIFrame99C",
+        "tooltipBorder": "MapUIFrame09A",
+        "tooltipLabelColor": "MapText06A",
+        "tooltipText": "MapBrand",
+        "xColor": "MapText06A",
+        "yColor": "MapText06A",
+        "axisColor": "MapUIFrame08A"
+      },
+      "_revision": 3,
+      "colors": [
+        "#1772f6",
+        "#ff4b6f",
+        "#67c23a",
+        "#fcd60d",
+        "#f77932",
+        "#d95350",
+        "#ff65c6",
+        "#574cf8"
+      ],
+      "bg": "#ffffff",
+      "text": "#9196a1",
+      "gridColor": "#e8eaed",
+      "width": 2,
+      "opacity": 12,
+      "font": 12,
+      "height": 210,
+      "radius": 8,
+      "inner": 87,
+      "bar": 10,
+      "smooth": true,
+      "dots": true,
+      "grid": true,
+      "legend": true,
+      "tooltip": true,
+      "labels": false,
+      "animation": false,
+      "type": "area",
+      "title": "",
+      "note": "注：最多展示 30 天的数据",
+      "period": 7,
+      "metric": "exposure",
+      "showNote": true,
+      "widthMode": "fixed",
+      "cardWidth": 820,
+      "marginTop": 10,
+      "marginRight": 8,
+      "marginBottom": 4,
+      "marginLeft": 0,
+      "curve": "monotone",
+      "lineDash": "solid",
+      "lineCap": "round",
+      "lineOpacity": 100,
+      "fillEnabled": true,
+      "fillTop": "#1772f6",
+      "fillBottom": "#1772f6",
+      "fillEndOpacity": 0,
+      "dotShape": "circle",
+      "dotRadius": 3,
+      "dotFill": "#ffffff",
+      "dotStroke": "#1772f6",
+      "dotStrokeWidth": 1.5,
+      "dotOpacity": 100,
+      "hoverDot": true,
+      "activeShape": "circle",
+      "activeRadius": 4,
+      "activeFill": "#ffffff",
+      "activeStroke": "#1772f6",
+      "activeStrokeWidth": 2,
+      "activeOpacity": 100,
+      "hoverLine": true,
+      "cursorColor": "#9196a1",
+      "cursorWidth": 1,
+      "cursorDash": "dashed",
+      "cursorOpacity": 100,
+      "tooltipBg": "#ffffff",
+      "tooltipBorder": "#e8eaed",
+      "tooltipBorderWidth": 1,
+      "tooltipRadius": 8,
+      "tooltipPadding": 12,
+      "tooltipOffset": 12,
+      "tooltipShadow": true,
+      "tooltipDate": true,
+      "tooltipName": true,
+      "tooltipUnit": true,
+      "tooltipLabelColor": "#9196a1",
+      "tooltipLabelSize": 11,
+      "tooltipText": "#1772f6",
+      "tooltipStyleVersion": 1,
+      "tooltipFont": 13,
+      "tooltipBold": true,
+      "xShow": true,
+      "xColor": "#9196a1",
+      "xFont": 10,
+      "xAngle": 0,
+      "xHeight": 20,
+      "xGap": 8,
+      "xTickMargin": 8,
+      "xPadding": 0,
+      "xInterval": "auto",
+      "xAxisLine": false,
+      "xTickLine": false,
+      "yShow": true,
+      "yColor": "#9196a1",
+      "yFont": 11,
+      "yWidth": 41,
+      "yTickMargin": 6,
+      "yTicks": 5,
+      "yFormat": "compact",
+      "yDecimals": 1,
+      "yMin": 0,
+      "yMaxAuto": true,
+      "yMax": 4000,
+      "yAxisLine": false,
+      "yTickLine": false,
+      "axisColor": "#c3c7cf",
+      "gridHorizontal": true,
+      "gridVertical": false,
+      "gridWidth": 1,
+      "gridDash": "solid",
+      "gridOpacity": 100,
+      "animationDuration": 400,
+      "dataLabel": "读者性别",
+      "dataUnit": "人"
+    },
+    "gender-mobile": {
+      "genderIconSize": 32,
+      "genderIconOpacity": 60,
+      "regionPercentDecimals": 2,
+      "trafficLegendGap": 16,
+      "trafficLegendRowGap": 16,
+      "regionRankVersion": 1,
+      "regionBarColor": "#1772f6",
+      "regionBarWidth": 10,
+      "regionBarRadius": 8,
+      "regionBarOpacity": 100,
+      "regionRankCount": 5,
+      "regionRankGradient": true,
+      "regionRankEndOpacity": 28,
+      "regionRankNameColor": "#9196a1",
+      "regionRankValueColor": "#9196a1",
+      "regionRankNameSize": 12,
+      "regionRankValueSize": 12,
+      "regionRankShowNames": true,
+      "regionRankShowValues": true,
+      "regionRankNumberFormat": "raw",
+      "regionBarTrack": false,
+      "regionTrackColor": "#f5f7fa",
+      "yAutoWidth": true,
+      "trafficPaletteVersion": 2,
+      "trafficGradientStart": 100,
+      "trafficGradientEnd": 70,
+      "tooltipMinWidth": 160,
+      "tooltipGap": 24,
+      "tooltipNameColor": "#36393f",
+      "mapStrokeColor": "#ffffff",
+      "mapStrokeWidth": 0.8,
+      "mapStrokeOpacity": 100,
+      "mapStrokeType": "solid",
+      "mapHoverStrokeColor": "#1772f6",
+      "mapHoverStrokeWidth": 1.5,
+      "mapBoundaryColor": "#9196a1",
+      "mapBoundaryWidth": 1,
+      "mapBoundaryOpacity": 90,
+      "seriesOpacity": 100,
+      "mobileWidthVersion": 1,
+      "distributionMetric": "readers",
+      "ecStyleVersion": 1,
+      "tokenSchema": 1,
+      "tokenTheme": "light",
+      "tokenBindings": {
+        "regionBarColor": "MapBrand",
+        "regionRankNameColor": "MapText06A",
+        "regionRankValueColor": "MapText06A",
+        "regionTrackColor": "MapUIFrame10A",
+        "tooltipNameColor": "MapText03A",
+        "mapStrokeColor": "MapUIFrame99A",
+        "mapHoverStrokeColor": "MapBrand",
+        "mapBoundaryColor": "MapText06A",
+        "series0": "MapBrand",
+        "series1": "MapBrand",
+        "series2": "MapPass",
+        "series3": "MapUIAccentB",
+        "series4": "MapHighlight",
+        "series5": "MapCriticalTip",
+        "series6": "MapPositiveAlt",
+        "series7": "MapAI",
+        "bg": "MapUIFrame99A",
+        "text": "MapText06A",
+        "gridColor": "MapUIFrame09A",
+        "fillTop": "MapBrand",
+        "fillBottom": "MapBrand",
+        "dotFill": "MapUIFrame99A",
+        "dotStroke": "MapBrand",
+        "activeFill": "MapUIFrame99A",
+        "activeStroke": "MapBrand",
+        "cursorColor": "MapText06A",
+        "tooltipBg": "MapUIFrame99C",
+        "tooltipBorder": "MapUIFrame09A",
+        "tooltipLabelColor": "MapText06A",
+        "tooltipText": "MapBrand",
+        "xColor": "MapText06A",
+        "yColor": "MapText06A",
+        "axisColor": "MapUIFrame08A"
+      },
+      "_revision": 3,
+      "colors": [
+        "#1772f6",
+        "#1772f6",
+        "#67c23a",
+        "#fcd60d",
+        "#f77932",
+        "#d95350",
+        "#ff65c6",
+        "#574cf8"
+      ],
+      "bg": "#ffffff",
+      "text": "#9196a1",
+      "gridColor": "#e8eaed",
+      "width": 2,
+      "opacity": 12,
+      "font": 12,
+      "height": 200,
+      "radius": 8,
+      "inner": 87,
+      "bar": 10,
+      "smooth": true,
+      "dots": true,
+      "grid": true,
+      "legend": true,
+      "tooltip": true,
+      "labels": false,
+      "animation": false,
+      "type": "area",
+      "title": "",
+      "note": "注：最多展示 30 天的数据",
+      "period": 7,
+      "metric": "exposure",
+      "showNote": true,
+      "widthMode": "fixed",
+      "cardWidth": 393,
+      "marginTop": 10,
+      "marginRight": 8,
+      "marginBottom": 4,
+      "marginLeft": 0,
+      "curve": "monotone",
+      "lineDash": "solid",
+      "lineCap": "round",
+      "lineOpacity": 100,
+      "fillEnabled": true,
+      "fillTop": "#1772f6",
+      "fillBottom": "#1772f6",
+      "fillEndOpacity": 0,
+      "dotShape": "circle",
+      "dotRadius": 3,
+      "dotFill": "#ffffff",
+      "dotStroke": "#1772f6",
+      "dotStrokeWidth": 1.5,
+      "dotOpacity": 100,
+      "hoverDot": true,
+      "activeShape": "circle",
+      "activeRadius": 4,
+      "activeFill": "#ffffff",
+      "activeStroke": "#1772f6",
+      "activeStrokeWidth": 2,
+      "activeOpacity": 100,
+      "hoverLine": true,
+      "cursorColor": "#9196a1",
+      "cursorWidth": 1,
+      "cursorDash": "dashed",
+      "cursorOpacity": 100,
+      "tooltipBg": "#ffffff",
+      "tooltipBorder": "#e8eaed",
+      "tooltipBorderWidth": 1,
+      "tooltipRadius": 8,
+      "tooltipPadding": 12,
+      "tooltipOffset": 12,
+      "tooltipShadow": true,
+      "tooltipDate": true,
+      "tooltipName": true,
+      "tooltipUnit": true,
+      "tooltipLabelColor": "#9196a1",
+      "tooltipLabelSize": 11,
+      "tooltipText": "#1772f6",
+      "tooltipStyleVersion": 1,
+      "tooltipFont": 13,
+      "tooltipBold": true,
+      "xShow": true,
+      "xColor": "#9196a1",
+      "xFont": 10,
+      "xAngle": 0,
+      "xHeight": 20,
+      "xGap": 8,
+      "xTickMargin": 8,
+      "xPadding": 0,
+      "xInterval": "auto",
+      "xAxisLine": false,
+      "xTickLine": false,
+      "yShow": true,
+      "yColor": "#9196a1",
+      "yFont": 11,
+      "yWidth": 41,
+      "yTickMargin": 6,
+      "yTicks": 5,
+      "yFormat": "compact",
+      "yDecimals": 1,
+      "yMin": 0,
+      "yMaxAuto": true,
+      "yMax": 4000,
+      "yAxisLine": false,
+      "yTickLine": false,
+      "axisColor": "#c3c7cf",
+      "gridHorizontal": true,
+      "gridVertical": false,
+      "gridWidth": 1,
+      "gridDash": "solid",
+      "gridOpacity": 100,
+      "animationDuration": 400,
+      "dataLabel": "读者性别",
+      "dataUnit": "人"
+    },
+    "age-pc": {
+      "genderIconSize": 32,
+      "genderIconOpacity": 60,
+      "regionPercentDecimals": 2,
+      "trafficLegendGap": 16,
+      "trafficLegendRowGap": 16,
+      "regionRankVersion": 1,
+      "regionBarColor": "#1772f6",
+      "regionBarWidth": 10,
+      "regionBarRadius": 8,
+      "regionBarOpacity": 100,
+      "regionRankCount": 5,
+      "regionRankGradient": true,
+      "regionRankEndOpacity": 28,
+      "regionRankNameColor": "#9196a1",
+      "regionRankValueColor": "#9196a1",
+      "regionRankNameSize": 12,
+      "regionRankValueSize": 12,
+      "regionRankShowNames": true,
+      "regionRankShowValues": true,
+      "regionRankNumberFormat": "raw",
+      "regionBarTrack": false,
+      "regionTrackColor": "#f5f7fa",
+      "yAutoWidth": true,
+      "trafficPaletteVersion": 2,
+      "trafficGradientStart": 100,
+      "trafficGradientEnd": 70,
+      "tooltipMinWidth": 160,
+      "tooltipGap": 24,
+      "tooltipNameColor": "#36393f",
+      "mapStrokeColor": "#ffffff",
+      "mapStrokeWidth": 0.8,
+      "mapStrokeOpacity": 100,
+      "mapStrokeType": "solid",
+      "mapHoverStrokeColor": "#1772f6",
+      "mapHoverStrokeWidth": 1.5,
+      "mapBoundaryColor": "#9196a1",
+      "mapBoundaryWidth": 1,
+      "mapBoundaryOpacity": 90,
+      "seriesOpacity": 80,
+      "mobileWidthVersion": 1,
+      "distributionMetric": "readers",
+      "ecStyleVersion": 1,
+      "tokenSchema": 1,
+      "tokenTheme": "light",
+      "tokenBindings": {
+        "regionBarColor": "MapBrand",
+        "regionRankNameColor": "MapText06A",
+        "regionRankValueColor": "MapText06A",
+        "regionTrackColor": "MapUIFrame10A",
+        "tooltipNameColor": "MapText03A",
+        "mapStrokeColor": "MapUIFrame99A",
+        "mapHoverStrokeColor": "MapBrand",
+        "mapBoundaryColor": "MapText06A",
+        "series0": "MapBrand",
+        "series1": "MapUIAccentC",
+        "series2": "MapPass",
+        "series3": "MapUIAccentB",
+        "series4": "MapHighlight",
+        "series5": "MapCriticalTip",
+        "series6": "MapPositiveAlt",
+        "series7": "MapAI",
+        "bg": "MapUIFrame99A",
+        "text": "MapText06A",
+        "gridColor": "MapUIFrame09A",
+        "fillTop": "MapBrand",
+        "fillBottom": "MapBrand",
+        "dotFill": "MapUIFrame99A",
+        "dotStroke": "MapBrand",
+        "activeFill": "MapUIFrame99A",
+        "activeStroke": "MapBrand",
+        "cursorColor": "MapText06A",
+        "tooltipBg": "MapUIFrame99C",
+        "tooltipBorder": "MapUIFrame09A",
+        "tooltipLabelColor": "MapText06A",
+        "tooltipText": "MapBrand",
+        "xColor": "MapText06A",
+        "yColor": "MapText06A",
+        "axisColor": "MapUIFrame08A"
+      },
+      "_revision": 3,
+      "colors": [
+        "#1772f6",
+        "#16b89b",
+        "#67c23a",
+        "#fcd60d",
+        "#f77932",
+        "#d95350",
+        "#ff65c6",
+        "#574cf8"
+      ],
+      "bg": "#ffffff",
+      "text": "#9196a1",
+      "gridColor": "#e8eaed",
+      "width": 2,
+      "opacity": 12,
+      "font": 12,
+      "height": 250,
+      "radius": 8,
+      "inner": 87,
+      "bar": 10,
+      "smooth": true,
+      "dots": true,
+      "grid": true,
+      "legend": true,
+      "tooltip": true,
+      "labels": false,
+      "animation": false,
+      "type": "area",
+      "title": "",
+      "note": "注：最多展示 30 天的数据",
+      "period": 7,
+      "metric": "exposure",
+      "showNote": true,
+      "widthMode": "fixed",
+      "cardWidth": 820,
+      "marginTop": 10,
+      "marginRight": 8,
+      "marginBottom": 4,
+      "marginLeft": 0,
+      "curve": "monotone",
+      "lineDash": "solid",
+      "lineCap": "round",
+      "lineOpacity": 100,
+      "fillEnabled": true,
+      "fillTop": "#1772f6",
+      "fillBottom": "#1772f6",
+      "fillEndOpacity": 0,
+      "dotShape": "circle",
+      "dotRadius": 3,
+      "dotFill": "#ffffff",
+      "dotStroke": "#1772f6",
+      "dotStrokeWidth": 1.5,
+      "dotOpacity": 100,
+      "hoverDot": true,
+      "activeShape": "circle",
+      "activeRadius": 4,
+      "activeFill": "#ffffff",
+      "activeStroke": "#1772f6",
+      "activeStrokeWidth": 2,
+      "activeOpacity": 100,
+      "hoverLine": true,
+      "cursorColor": "#9196a1",
+      "cursorWidth": 1,
+      "cursorDash": "dashed",
+      "cursorOpacity": 100,
+      "tooltipBg": "#ffffff",
+      "tooltipBorder": "#e8eaed",
+      "tooltipBorderWidth": 1,
+      "tooltipRadius": 8,
+      "tooltipPadding": 12,
+      "tooltipOffset": 12,
+      "tooltipShadow": true,
+      "tooltipDate": true,
+      "tooltipName": true,
+      "tooltipUnit": true,
+      "tooltipLabelColor": "#9196a1",
+      "tooltipLabelSize": 11,
+      "tooltipText": "#1772f6",
+      "tooltipStyleVersion": 1,
+      "tooltipFont": 13,
+      "tooltipBold": true,
+      "xShow": true,
+      "xColor": "#9196a1",
+      "xFont": 10,
+      "xAngle": 0,
+      "xHeight": 20,
+      "xGap": 8,
+      "xTickMargin": 8,
+      "xPadding": 0,
+      "xInterval": "auto",
+      "xAxisLine": false,
+      "xTickLine": false,
+      "yShow": true,
+      "yColor": "#9196a1",
+      "yFont": 11,
+      "yWidth": 41,
+      "yTickMargin": 6,
+      "yTicks": 5,
+      "yFormat": "compact",
+      "yDecimals": 1,
+      "yMin": 0,
+      "yMaxAuto": true,
+      "yMax": 4000,
+      "yAxisLine": false,
+      "yTickLine": false,
+      "axisColor": "#c3c7cf",
+      "gridHorizontal": true,
+      "gridVertical": false,
+      "gridWidth": 1,
+      "gridDash": "solid",
+      "gridOpacity": 100,
+      "animationDuration": 400,
+      "dataLabel": "读者年龄",
+      "dataUnit": "人"
+    },
+    "age-mobile": {
+      "genderIconSize": 32,
+      "genderIconOpacity": 60,
+      "regionPercentDecimals": 2,
+      "trafficLegendGap": 16,
+      "trafficLegendRowGap": 16,
+      "regionRankVersion": 1,
+      "regionBarColor": "#1772f6",
+      "regionBarWidth": 10,
+      "regionBarRadius": 8,
+      "regionBarOpacity": 100,
+      "regionRankCount": 5,
+      "regionRankGradient": true,
+      "regionRankEndOpacity": 28,
+      "regionRankNameColor": "#9196a1",
+      "regionRankValueColor": "#9196a1",
+      "regionRankNameSize": 12,
+      "regionRankValueSize": 12,
+      "regionRankShowNames": true,
+      "regionRankShowValues": true,
+      "regionRankNumberFormat": "raw",
+      "regionBarTrack": false,
+      "regionTrackColor": "#f5f7fa",
+      "yAutoWidth": true,
+      "trafficPaletteVersion": 2,
+      "trafficGradientStart": 100,
+      "trafficGradientEnd": 70,
+      "tooltipMinWidth": 160,
+      "tooltipGap": 24,
+      "tooltipNameColor": "#36393f",
+      "mapStrokeColor": "#ffffff",
+      "mapStrokeWidth": 0.8,
+      "mapStrokeOpacity": 100,
+      "mapStrokeType": "solid",
+      "mapHoverStrokeColor": "#1772f6",
+      "mapHoverStrokeWidth": 1.5,
+      "mapBoundaryColor": "#9196a1",
+      "mapBoundaryWidth": 1,
+      "mapBoundaryOpacity": 90,
+      "seriesOpacity": 80,
+      "mobileWidthVersion": 1,
+      "distributionMetric": "readers",
+      "ecStyleVersion": 1,
+      "tokenSchema": 1,
+      "tokenTheme": "light",
+      "tokenBindings": {
+        "regionBarColor": "MapBrand",
+        "regionRankNameColor": "MapText06A",
+        "regionRankValueColor": "MapText06A",
+        "regionTrackColor": "MapUIFrame10A",
+        "tooltipNameColor": "MapText03A",
+        "mapStrokeColor": "MapUIFrame99A",
+        "mapHoverStrokeColor": "MapBrand",
+        "mapBoundaryColor": "MapText06A",
+        "series0": "MapBrand",
+        "series1": "MapUIAccentC",
+        "series2": "MapPass",
+        "series3": "MapUIAccentB",
+        "series4": "MapHighlight",
+        "series5": "MapCriticalTip",
+        "series6": "MapPositiveAlt",
+        "series7": "MapAI",
+        "bg": "MapUIFrame99A",
+        "text": "MapText06A",
+        "gridColor": "MapUIFrame09A",
+        "fillTop": "MapBrand",
+        "fillBottom": "MapBrand",
+        "dotFill": "MapUIFrame99A",
+        "dotStroke": "MapBrand",
+        "activeFill": "MapUIFrame99A",
+        "activeStroke": "MapBrand",
+        "cursorColor": "MapText06A",
+        "tooltipBg": "MapUIFrame99C",
+        "tooltipBorder": "MapUIFrame09A",
+        "tooltipLabelColor": "MapText06A",
+        "tooltipText": "MapBrand",
+        "xColor": "MapText06A",
+        "yColor": "MapText06A",
+        "axisColor": "MapUIFrame08A"
+      },
+      "_revision": 3,
+      "colors": [
+        "#1772f6",
+        "#16b89b",
+        "#67c23a",
+        "#fcd60d",
+        "#f77932",
+        "#d95350",
+        "#ff65c6",
+        "#574cf8"
+      ],
+      "bg": "#ffffff",
+      "text": "#9196a1",
+      "gridColor": "#e8eaed",
+      "width": 2,
+      "opacity": 12,
+      "font": 10,
+      "height": 180,
+      "radius": 20,
+      "inner": 87,
+      "bar": 12,
+      "smooth": true,
+      "dots": true,
+      "grid": true,
+      "legend": true,
+      "tooltip": true,
+      "labels": false,
+      "animation": true,
+      "type": "area",
+      "title": "",
+      "note": "注：最多展示 30 天的数据",
+      "period": 7,
+      "metric": "exposure",
+      "showNote": true,
+      "widthMode": "fixed",
+      "cardWidth": 393,
+      "marginTop": 10,
+      "marginRight": 8,
+      "marginBottom": 4,
+      "marginLeft": 0,
+      "curve": "monotone",
+      "lineDash": "solid",
+      "lineCap": "round",
+      "lineOpacity": 100,
+      "fillEnabled": true,
+      "fillTop": "#1772f6",
+      "fillBottom": "#1772f6",
+      "fillEndOpacity": 0,
+      "dotShape": "circle",
+      "dotRadius": 3,
+      "dotFill": "#ffffff",
+      "dotStroke": "#1772f6",
+      "dotStrokeWidth": 1.5,
+      "dotOpacity": 100,
+      "hoverDot": true,
+      "activeShape": "circle",
+      "activeRadius": 4,
+      "activeFill": "#ffffff",
+      "activeStroke": "#1772f6",
+      "activeStrokeWidth": 2,
+      "activeOpacity": 100,
+      "hoverLine": true,
+      "cursorColor": "#9196a1",
+      "cursorWidth": 1,
+      "cursorDash": "dashed",
+      "cursorOpacity": 100,
+      "tooltipBg": "#ffffff",
+      "tooltipBorder": "#e8eaed",
+      "tooltipBorderWidth": 1,
+      "tooltipRadius": 8,
+      "tooltipPadding": 12,
+      "tooltipOffset": 12,
+      "tooltipShadow": true,
+      "tooltipDate": true,
+      "tooltipName": true,
+      "tooltipUnit": true,
+      "tooltipLabelColor": "#9196a1",
+      "tooltipLabelSize": 11,
+      "tooltipText": "#1772f6",
+      "tooltipStyleVersion": 1,
+      "tooltipFont": 13,
+      "tooltipBold": true,
+      "xShow": true,
+      "xColor": "#9196a1",
+      "xFont": 10,
+      "xAngle": 0,
+      "xHeight": 20,
+      "xGap": 8,
+      "xTickMargin": 8,
+      "xPadding": 0,
+      "xInterval": "auto",
+      "xAxisLine": false,
+      "xTickLine": false,
+      "yShow": true,
+      "yColor": "#9196a1",
+      "yFont": 11,
+      "yWidth": 41,
+      "yTickMargin": 6,
+      "yTicks": 5,
+      "yFormat": "compact",
+      "yDecimals": 1,
+      "yMin": 0,
+      "yMaxAuto": true,
+      "yMax": 4000,
+      "yAxisLine": false,
+      "yTickLine": false,
+      "axisColor": "#c3c7cf",
+      "gridHorizontal": true,
+      "gridVertical": false,
+      "gridWidth": 1,
+      "gridDash": "solid",
+      "gridOpacity": 100,
+      "animationDuration": 400,
+      "dataLabel": "读者年龄",
+      "dataUnit": "人"
+    },
+    "region-pc": {
+      "genderIconSize": 32,
+      "genderIconOpacity": 60,
+      "regionPercentDecimals": 2,
+      "trafficLegendGap": 16,
+      "trafficLegendRowGap": 16,
+      "regionRankVersion": 1,
+      "regionBarColor": "#1772f6",
+      "regionBarWidth": 10,
+      "regionBarRadius": 8,
+      "regionBarOpacity": 100,
+      "regionRankCount": 5,
+      "regionRankGradient": true,
+      "regionRankEndOpacity": 28,
+      "regionRankNameColor": "#9196a1",
+      "regionRankValueColor": "#9196a1",
+      "regionRankNameSize": 12,
+      "regionRankValueSize": 12,
+      "regionRankShowNames": true,
+      "regionRankShowValues": true,
+      "regionRankNumberFormat": "raw",
+      "regionBarTrack": false,
+      "regionTrackColor": "#f5f7fa",
+      "yAutoWidth": true,
+      "trafficPaletteVersion": 2,
+      "trafficGradientStart": 100,
+      "trafficGradientEnd": 70,
+      "tooltipMinWidth": 160,
+      "tooltipGap": 24,
+      "tooltipNameColor": "#36393f",
+      "mapStrokeColor": "#ffffff",
+      "mapStrokeWidth": 0.8,
+      "mapStrokeOpacity": 100,
+      "mapStrokeType": "solid",
+      "mapHoverStrokeColor": "#1772f6",
+      "mapHoverStrokeWidth": 1.5,
+      "mapBoundaryColor": "#9196a1",
+      "mapBoundaryWidth": 1,
+      "mapBoundaryOpacity": 90,
+      "seriesOpacity": 80,
+      "mobileWidthVersion": 1,
+      "distributionMetric": "readers",
+      "ecStyleVersion": 1,
+      "tokenSchema": 1,
+      "tokenTheme": "light",
+      "tokenBindings": {
+        "regionBarColor": "MapBrand",
+        "regionRankNameColor": "MapText06A",
+        "regionRankValueColor": "MapText06A",
+        "regionTrackColor": "MapUIFrame10A",
+        "tooltipNameColor": "MapText03A",
+        "mapStrokeColor": "MapUIFrame99A",
+        "mapHoverStrokeColor": "MapBrand",
+        "mapBoundaryColor": "MapText06A",
+        "series0": "MapBrand",
+        "series1": "MapUIAccentC",
+        "series2": "MapPass",
+        "series3": "MapUIAccentB",
+        "series4": "MapHighlight",
+        "series5": "MapCriticalTip",
+        "series6": "MapPositiveAlt",
+        "series7": "MapAI",
+        "bg": "MapUIFrame99A",
+        "text": "MapText06A",
+        "gridColor": "MapUIFrame09A",
+        "fillTop": "MapBrand",
+        "fillBottom": "MapBrand",
+        "dotFill": "MapUIFrame99A",
+        "dotStroke": "MapBrand",
+        "activeFill": "MapUIFrame99A",
+        "activeStroke": "MapBrand",
+        "cursorColor": "MapText06A",
+        "tooltipBg": "MapUIFrame99C",
+        "tooltipBorder": "MapUIFrame09A",
+        "tooltipLabelColor": "MapText06A",
+        "tooltipText": "MapBrand",
+        "xColor": "MapText06A",
+        "yColor": "MapText06A",
+        "axisColor": "MapUIFrame08A"
+      },
+      "_revision": 3,
+      "colors": [
+        "#1772f6",
+        "#16b89b",
+        "#67c23a",
+        "#fcd60d",
+        "#f77932",
+        "#d95350",
+        "#ff65c6",
+        "#574cf8"
+      ],
+      "bg": "#ffffff",
+      "text": "#9196a1",
+      "gridColor": "#e8eaed",
+      "width": 2,
+      "opacity": 12,
+      "font": 12,
+      "height": 620,
+      "radius": 8,
+      "inner": 87,
+      "bar": 10,
+      "smooth": true,
+      "dots": true,
+      "grid": true,
+      "legend": true,
+      "tooltip": true,
+      "labels": true,
+      "animation": false,
+      "type": "area",
+      "title": "",
+      "note": "注：最多展示 30 天的数据",
+      "period": 7,
+      "metric": "exposure",
+      "showNote": true,
+      "widthMode": "fixed",
+      "cardWidth": 820,
+      "marginTop": 10,
+      "marginRight": 8,
+      "marginBottom": 4,
+      "marginLeft": 0,
+      "curve": "monotone",
+      "lineDash": "solid",
+      "lineCap": "round",
+      "lineOpacity": 100,
+      "fillEnabled": true,
+      "fillTop": "#1772f6",
+      "fillBottom": "#1772f6",
+      "fillEndOpacity": 0,
+      "dotShape": "circle",
+      "dotRadius": 3,
+      "dotFill": "#ffffff",
+      "dotStroke": "#1772f6",
+      "dotStrokeWidth": 1.5,
+      "dotOpacity": 100,
+      "hoverDot": true,
+      "activeShape": "circle",
+      "activeRadius": 4,
+      "activeFill": "#ffffff",
+      "activeStroke": "#1772f6",
+      "activeStrokeWidth": 2,
+      "activeOpacity": 100,
+      "hoverLine": true,
+      "cursorColor": "#9196a1",
+      "cursorWidth": 1,
+      "cursorDash": "dashed",
+      "cursorOpacity": 100,
+      "tooltipBg": "#ffffff",
+      "tooltipBorder": "#e8eaed",
+      "tooltipBorderWidth": 1,
+      "tooltipRadius": 8,
+      "tooltipPadding": 12,
+      "tooltipOffset": 12,
+      "tooltipShadow": true,
+      "tooltipDate": true,
+      "tooltipName": true,
+      "tooltipUnit": true,
+      "tooltipLabelColor": "#9196a1",
+      "tooltipLabelSize": 11,
+      "tooltipText": "#1772f6",
+      "tooltipStyleVersion": 1,
+      "tooltipFont": 13,
+      "tooltipBold": true,
+      "xShow": true,
+      "xColor": "#9196a1",
+      "xFont": 10,
+      "xAngle": 0,
+      "xHeight": 20,
+      "xGap": 8,
+      "xTickMargin": 8,
+      "xPadding": 0,
+      "xInterval": "auto",
+      "xAxisLine": false,
+      "xTickLine": false,
+      "yShow": true,
+      "yColor": "#9196a1",
+      "yFont": 11,
+      "yWidth": 41,
+      "yTickMargin": 6,
+      "yTicks": 5,
+      "yFormat": "compact",
+      "yDecimals": 1,
+      "yMin": 0,
+      "yMaxAuto": true,
+      "yMax": 4000,
+      "yAxisLine": false,
+      "yTickLine": false,
+      "axisColor": "#c3c7cf",
+      "gridHorizontal": true,
+      "gridVertical": false,
+      "gridWidth": 1,
+      "gridDash": "solid",
+      "gridOpacity": 100,
+      "animationDuration": 400,
+      "dataLabel": "读者地域",
+      "dataUnit": "%"
+    },
+    "region-mobile": {
+      "genderIconSize": 32,
+      "genderIconOpacity": 60,
+      "regionPercentDecimals": 2,
+      "trafficLegendGap": 16,
+      "trafficLegendRowGap": 16,
+      "regionRankVersion": 1,
+      "regionBarColor": "#1772f6",
+      "regionBarWidth": 12,
+      "regionBarRadius": 20,
+      "regionBarOpacity": 100,
+      "regionRankCount": 5,
+      "regionRankGradient": true,
+      "regionRankEndOpacity": 20,
+      "regionRankNameColor": "#9196a1",
+      "regionRankValueColor": "#9196a1",
+      "regionRankNameSize": 12,
+      "regionRankValueSize": 12,
+      "regionRankShowNames": true,
+      "regionRankShowValues": true,
+      "regionRankNumberFormat": "raw",
+      "regionBarTrack": false,
+      "regionTrackColor": "#f5f7fa",
+      "yAutoWidth": true,
+      "trafficPaletteVersion": 2,
+      "trafficGradientStart": 100,
+      "trafficGradientEnd": 70,
+      "tooltipMinWidth": 160,
+      "tooltipGap": 24,
+      "tooltipNameColor": "#36393f",
+      "mapStrokeColor": "#acd2ff",
+      "mapStrokeWidth": 0.8,
+      "mapStrokeOpacity": 100,
+      "mapStrokeType": "solid",
+      "mapHoverStrokeColor": "#1772f6",
+      "mapHoverStrokeWidth": 1.5,
+      "mapBoundaryColor": "#1772f6",
+      "mapBoundaryWidth": 1,
+      "mapBoundaryOpacity": 90,
+      "seriesOpacity": 80,
+      "mobileWidthVersion": 1,
+      "distributionMetric": "followers",
+      "ecStyleVersion": 1,
+      "tokenSchema": 1,
+      "tokenTheme": "light",
+      "tokenBindings": {
+        "regionBarColor": "MapBrand",
+        "regionRankNameColor": "MapText06A",
+        "regionRankValueColor": "MapText06A",
+        "regionTrackColor": "MapUIFrame10A",
+        "tooltipNameColor": "MapText03A",
+        "mapStrokeColor": "MapBrandLight",
+        "mapHoverStrokeColor": "MapBrand",
+        "mapBoundaryColor": "MapBrand",
+        "series0": "MapBrand",
+        "series1": "MapUIAccentC",
+        "series2": "MapPass",
+        "series3": "MapUIAccentB",
+        "series4": "MapHighlight",
+        "series5": "MapCriticalTip",
+        "series6": "MapPositiveAlt",
+        "series7": "MapAI",
+        "bg": "MapUIFrame99A",
+        "text": "MapText06A",
+        "gridColor": "MapUIFrame09A",
+        "fillTop": "MapBrand",
+        "fillBottom": "MapBrand",
+        "dotFill": "MapUIFrame99A",
+        "dotStroke": "MapBrand",
+        "activeFill": "MapUIFrame99A",
+        "activeStroke": "MapBrand",
+        "cursorColor": "MapText06A",
+        "tooltipBg": "MapUIFrame99C",
+        "tooltipBorder": "MapUIFrame09A",
+        "tooltipLabelColor": "MapText06A",
+        "tooltipText": "MapBrand",
+        "xColor": "MapText06A",
+        "yColor": "MapText06A",
+        "axisColor": "MapUIFrame08A"
+      },
+      "_revision": 3,
+      "colors": [
+        "#1772f6",
+        "#16b89b",
+        "#67c23a",
+        "#fcd60d",
+        "#f77932",
+        "#d95350",
+        "#ff65c6",
+        "#574cf8"
+      ],
+      "bg": "#ffffff",
+      "text": "#9196a1",
+      "gridColor": "#e8eaed",
+      "width": 2,
+      "opacity": 12,
+      "font": 12,
+      "height": 600,
+      "radius": 8,
+      "inner": 87,
+      "bar": 10,
+      "smooth": true,
+      "dots": true,
+      "grid": true,
+      "legend": true,
+      "tooltip": true,
+      "labels": true,
+      "animation": true,
+      "type": "area",
+      "title": "",
+      "note": "注：最多展示 30 天的数据",
+      "period": 7,
+      "metric": "exposure",
+      "showNote": true,
+      "widthMode": "fixed",
+      "cardWidth": 393,
+      "marginTop": 10,
+      "marginRight": 8,
+      "marginBottom": 4,
+      "marginLeft": 0,
+      "curve": "monotone",
+      "lineDash": "solid",
+      "lineCap": "round",
+      "lineOpacity": 100,
+      "fillEnabled": true,
+      "fillTop": "#1772f6",
+      "fillBottom": "#1772f6",
+      "fillEndOpacity": 0,
+      "dotShape": "circle",
+      "dotRadius": 3,
+      "dotFill": "#ffffff",
+      "dotStroke": "#1772f6",
+      "dotStrokeWidth": 1.5,
+      "dotOpacity": 100,
+      "hoverDot": true,
+      "activeShape": "circle",
+      "activeRadius": 4,
+      "activeFill": "#ffffff",
+      "activeStroke": "#1772f6",
+      "activeStrokeWidth": 2,
+      "activeOpacity": 100,
+      "hoverLine": true,
+      "cursorColor": "#9196a1",
+      "cursorWidth": 1,
+      "cursorDash": "dashed",
+      "cursorOpacity": 100,
+      "tooltipBg": "#ffffff",
+      "tooltipBorder": "#e8eaed",
+      "tooltipBorderWidth": 1,
+      "tooltipRadius": 8,
+      "tooltipPadding": 12,
+      "tooltipOffset": 12,
+      "tooltipShadow": true,
+      "tooltipDate": true,
+      "tooltipName": true,
+      "tooltipUnit": true,
+      "tooltipLabelColor": "#9196a1",
+      "tooltipLabelSize": 11,
+      "tooltipText": "#1772f6",
+      "tooltipStyleVersion": 1,
+      "tooltipFont": 13,
+      "tooltipBold": true,
+      "xShow": true,
+      "xColor": "#9196a1",
+      "xFont": 10,
+      "xAngle": 0,
+      "xHeight": 20,
+      "xGap": 8,
+      "xTickMargin": 8,
+      "xPadding": 0,
+      "xInterval": "auto",
+      "xAxisLine": false,
+      "xTickLine": false,
+      "yShow": true,
+      "yColor": "#9196a1",
+      "yFont": 11,
+      "yWidth": 41,
+      "yTickMargin": 6,
+      "yTicks": 5,
+      "yFormat": "compact",
+      "yDecimals": 1,
+      "yMin": 0,
+      "yMaxAuto": true,
+      "yMax": 4000,
+      "yAxisLine": false,
+      "yTickLine": false,
+      "axisColor": "#c3c7cf",
+      "gridHorizontal": true,
+      "gridVertical": false,
+      "gridWidth": 1,
+      "gridDash": "solid",
+      "gridOpacity": 100,
+      "animationDuration": 400,
+      "dataLabel": "粉丝地域",
+      "dataUnit": "%"
+    }
+  },
+  "data": {
+    "article": [
+      {
+        "name": "11-01",
+        "value": 900
+      },
+      {
+        "name": "11-02",
+        "value": 1339
+      },
+      {
+        "name": "11-03",
+        "value": 1576
+      },
+      {
+        "name": "11-04",
+        "value": 1597
+      },
+      {
+        "name": "11-05",
+        "value": 1583
+      },
+      {
+        "name": "11-06",
+        "value": 651
+      },
+      {
+        "name": "11-07",
+        "value": 1047
+      },
+      {
+        "name": "11-08",
+        "value": 1511
+      },
+      {
+        "name": "11-09",
+        "value": 1817
+      },
+      {
+        "name": "11-10",
+        "value": 1887
+      },
+      {
+        "name": "11-11",
+        "value": 759
+      },
+      {
+        "name": "11-12",
+        "value": 860
+      },
+      {
+        "name": "11-13",
+        "value": 1200
+      },
+      {
+        "name": "11-14",
+        "value": 1669
+      },
+      {
+        "name": "11-15",
+        "value": 2038
+      },
+      {
+        "name": "11-16",
+        "value": 1069
+      },
+      {
+        "name": "11-17",
+        "value": 1045
+      },
+      {
+        "name": "11-18",
+        "value": 1090
+      },
+      {
+        "name": "11-19",
+        "value": 1365
+      },
+      {
+        "name": "11-20",
+        "value": 1819
+      },
+      {
+        "name": "11-21",
+        "value": 1137
+      },
+      {
+        "name": "11-22",
+        "value": 1338
+      },
+      {
+        "name": "11-23",
+        "value": 1338
+      },
+      {
+        "name": "11-24",
+        "value": 1100
+      },
+      {
+        "name": "11-25",
+        "value": 1100
+      },
+      {
+        "name": "11-26",
+        "value": 3800
+      },
+      {
+        "name": "11-27",
+        "value": 1500
+      },
+      {
+        "name": "11-28",
+        "value": 1800
+      },
+      {
+        "name": "11-29",
+        "value": 1100
+      },
+      {
+        "name": "11-30",
+        "value": 1300
+      }
+    ],
+    "traffic": [
+      {
+        "name": "APP 首页推荐",
+        "value": 39.84
+      },
+      {
+        "name": "APP 首页关注",
+        "value": 26.15
+      },
+      {
+        "name": "APP 搜索",
+        "value": 12.09
+      },
+      {
+        "name": "APP 个人页",
+        "value": 9.88
+      },
+      {
+        "name": "PC 首页推荐",
+        "value": 7.86
+      },
+      {
+        "name": "PC 首页关注",
+        "value": 3.07
+      },
+      {
+        "name": "PC 搜索",
+        "value": 0.87
+      },
+      {
+        "name": "PC 个人页",
+        "value": 0.24
+      }
+    ],
+    "gender": [
+      {
+        "name": "男性",
+        "value": 1345
+      },
+      {
+        "name": "女性",
+        "value": 345
+      }
+    ],
+    "age": [
+      {
+        "name": "0–18",
+        "value": 330
+      },
+      {
+        "name": "18–22",
+        "value": 530
+      },
+      {
+        "name": "22–30",
+        "value": 690
+      },
+      {
+        "name": "30–45",
+        "value": 620
+      },
+      {
+        "name": "45+",
+        "value": 260
+      }
+    ],
+    "region": [
+      {
+        "name": "广东省",
+        "value": 1848
+      },
+      {
+        "name": "山东省",
+        "value": 1648
+      },
+      {
+        "name": "河南省",
+        "value": 848
+      },
+      {
+        "name": "江苏省",
+        "value": 424
+      },
+      {
+        "name": "浙江省",
+        "value": 224
+      },
+      {
+        "name": "四川省",
+        "value": 180
+      },
+      {
+        "name": "湖北省",
+        "value": 150
+      },
+      {
+        "name": "湖南省",
+        "value": 130
+      },
+      {
+        "name": "北京市",
+        "value": 120
+      },
+      {
+        "name": "上海市",
+        "value": 100
+      },
+      {
+        "name": "福建省",
+        "value": 98
+      },
+      {
+        "name": "安徽省",
+        "value": 90
+      },
+      {
+        "name": "辽宁省",
+        "value": 85
+      },
+      {
+        "name": "云南省",
+        "value": 78
+      },
+      {
+        "name": "广西壮族自治区",
+        "value": 70
+      },
+      {
+        "name": "河北省",
+        "value": 65
+      },
+      {
+        "name": "陕西省",
+        "value": 60
+      },
+      {
+        "name": "江西省",
+        "value": 50
+      },
+      {
+        "name": "黑龙江省",
+        "value": 45
+      },
+      {
+        "name": "吉林省",
+        "value": 40
+      },
+      {
+        "name": "重庆市",
+        "value": 38
+      },
+      {
+        "name": "贵州省",
+        "value": 36
+      },
+      {
+        "name": "天津市",
+        "value": 33
+      },
+      {
+        "name": "山西省",
+        "value": 30
+      },
+      {
+        "name": "内蒙古自治区",
+        "value": 28
+      },
+      {
+        "name": "新疆维吾尔自治区",
+        "value": 24
+      },
+      {
+        "name": "甘肃省",
+        "value": 20
+      },
+      {
+        "name": "海南省",
+        "value": 16
+      },
+      {
+        "name": "宁夏回族自治区",
+        "value": 13
+      },
+      {
+        "name": "青海省",
+        "value": 10
+      },
+      {
+        "name": "西藏自治区",
+        "value": 8
+      },
+      {
+        "name": "台湾省",
+        "value": 5
+      },
+      {
+        "name": "香港特别行政区",
+        "value": 3
+      },
+      {
+        "name": "澳门特别行政区",
+        "value": 2
+      }
+    ],
+    "traffic-readers": [
+      {
+        "name": "APP 首页推荐",
+        "value": 3984
+      },
+      {
+        "name": "APP 首页关注",
+        "value": 2615
+      },
+      {
+        "name": "APP 搜索",
+        "value": 1209
+      },
+      {
+        "name": "APP 个人页",
+        "value": 988
+      },
+      {
+        "name": "PC 首页推荐",
+        "value": 786
+      },
+      {
+        "name": "PC 首页关注",
+        "value": 307
+      },
+      {
+        "name": "PC 搜索",
+        "value": 87
+      },
+      {
+        "name": "PC 个人页",
+        "value": 24
+      }
+    ],
+    "traffic-exposure": [
+      {
+        "name": "APP 首页推荐",
+        "value": 1561728
+      },
+      {
+        "name": "APP 首页关注",
+        "value": 750505
+      },
+      {
+        "name": "APP 搜索",
+        "value": 571253
+      },
+      {
+        "name": "APP 个人页",
+        "value": 276640
+      },
+      {
+        "name": "PC 首页推荐",
+        "value": 440160
+      },
+      {
+        "name": "PC 首页关注",
+        "value": 80588
+      },
+      {
+        "name": "PC 搜索",
+        "value": 35017
+      },
+      {
+        "name": "PC 个人页",
+        "value": 7560
+      }
+    ],
+    "traffic-interactors": [
+      {
+        "name": "APP 首页推荐",
+        "value": 394
+      },
+      {
+        "name": "APP 首页关注",
+        "value": 847
+      },
+      {
+        "name": "APP 搜索",
+        "value": 305
+      },
+      {
+        "name": "APP 个人页",
+        "value": 178
+      },
+      {
+        "name": "PC 首页推荐",
+        "value": 106
+      },
+      {
+        "name": "PC 首页关注",
+        "value": 30
+      },
+      {
+        "name": "PC 搜索",
+        "value": 28
+      },
+      {
+        "name": "PC 个人页",
+        "value": 6
+      }
+    ],
+    "gender-readers": [
+      {
+        "name": "男性",
+        "value": 1345
+      },
+      {
+        "name": "女性",
+        "value": 345
+      }
+    ],
+    "gender-followers": [
+      {
+        "name": "男性",
+        "value": 810
+      },
+      {
+        "name": "女性",
+        "value": 620
+      }
+    ],
+    "gender-interactors": [
+      {
+        "name": "男性",
+        "value": 140
+      },
+      {
+        "name": "女性",
+        "value": 210
+      }
+    ],
+    "age-readers": [
+      {
+        "name": "0–18",
+        "value": 330
+      },
+      {
+        "name": "18–22",
+        "value": 530
+      },
+      {
+        "name": "22–30",
+        "value": 690
+      },
+      {
+        "name": "30–45",
+        "value": 620
+      },
+      {
+        "name": "45+",
+        "value": 260
+      }
+    ],
+    "age-followers": [
+      {
+        "name": "0–18",
+        "value": 330
+      },
+      {
+        "name": "18–22",
+        "value": 263
+      },
+      {
+        "name": "22–30",
+        "value": 596
+      },
+      {
+        "name": "30–45",
+        "value": 670
+      },
+      {
+        "name": "45+",
+        "value": 156
+      }
+    ],
+    "age-interactors": [
+      {
+        "name": "0–18",
+        "value": 33
+      },
+      {
+        "name": "18–22",
+        "value": 172
+      },
+      {
+        "name": "22–30",
+        "value": 174
+      },
+      {
+        "name": "30–45",
+        "value": 112
+      },
+      {
+        "name": "45+",
+        "value": 35
+      }
+    ],
+    "region-readers": [
+      {
+        "name": "广东省",
+        "value": 1848
+      },
+      {
+        "name": "山东省",
+        "value": 1648
+      },
+      {
+        "name": "河南省",
+        "value": 848
+      },
+      {
+        "name": "江苏省",
+        "value": 424
+      },
+      {
+        "name": "浙江省",
+        "value": 224
+      },
+      {
+        "name": "四川省",
+        "value": 180
+      },
+      {
+        "name": "湖北省",
+        "value": 150
+      },
+      {
+        "name": "湖南省",
+        "value": 130
+      },
+      {
+        "name": "北京市",
+        "value": 120
+      },
+      {
+        "name": "上海市",
+        "value": 100
+      },
+      {
+        "name": "福建省",
+        "value": 98
+      },
+      {
+        "name": "安徽省",
+        "value": 90
+      },
+      {
+        "name": "辽宁省",
+        "value": 85
+      },
+      {
+        "name": "云南省",
+        "value": 78
+      },
+      {
+        "name": "广西壮族自治区",
+        "value": 70
+      },
+      {
+        "name": "河北省",
+        "value": 65
+      },
+      {
+        "name": "陕西省",
+        "value": 60
+      },
+      {
+        "name": "江西省",
+        "value": 50
+      },
+      {
+        "name": "黑龙江省",
+        "value": 45
+      },
+      {
+        "name": "吉林省",
+        "value": 40
+      },
+      {
+        "name": "重庆市",
+        "value": 38
+      },
+      {
+        "name": "贵州省",
+        "value": 36
+      },
+      {
+        "name": "天津市",
+        "value": 33
+      },
+      {
+        "name": "山西省",
+        "value": 30
+      },
+      {
+        "name": "内蒙古自治区",
+        "value": 28
+      },
+      {
+        "name": "新疆维吾尔自治区",
+        "value": 24
+      },
+      {
+        "name": "甘肃省",
+        "value": 20
+      },
+      {
+        "name": "海南省",
+        "value": 16
+      },
+      {
+        "name": "宁夏回族自治区",
+        "value": 13
+      },
+      {
+        "name": "青海省",
+        "value": 10
+      },
+      {
+        "name": "西藏自治区",
+        "value": 8
+      },
+      {
+        "name": "台湾省",
+        "value": 5
+      },
+      {
+        "name": "香港特别行政区",
+        "value": 3
+      },
+      {
+        "name": "澳门特别行政区",
+        "value": 2
+      }
+    ],
+    "region-followers": [
+      {
+        "name": "广东省",
+        "value": 1848
+      },
+      {
+        "name": "山东省",
+        "value": 817
+      },
+      {
+        "name": "河南省",
+        "value": 733
+      },
+      {
+        "name": "江苏省",
+        "value": 458
+      },
+      {
+        "name": "浙江省",
+        "value": 134
+      },
+      {
+        "name": "四川省",
+        "value": 180
+      },
+      {
+        "name": "湖北省",
+        "value": 74
+      },
+      {
+        "name": "湖南省",
+        "value": 112
+      },
+      {
+        "name": "北京市",
+        "value": 130
+      },
+      {
+        "name": "上海市",
+        "value": 60
+      },
+      {
+        "name": "福建省",
+        "value": 98
+      },
+      {
+        "name": "安徽省",
+        "value": 45
+      },
+      {
+        "name": "辽宁省",
+        "value": 73
+      },
+      {
+        "name": "云南省",
+        "value": 84
+      },
+      {
+        "name": "广西壮族自治区",
+        "value": 42
+      },
+      {
+        "name": "河北省",
+        "value": 65
+      },
+      {
+        "name": "陕西省",
+        "value": 30
+      },
+      {
+        "name": "江西省",
+        "value": 43
+      },
+      {
+        "name": "黑龙江省",
+        "value": 49
+      },
+      {
+        "name": "吉林省",
+        "value": 24
+      },
+      {
+        "name": "重庆市",
+        "value": 38
+      },
+      {
+        "name": "贵州省",
+        "value": 18
+      },
+      {
+        "name": "天津市",
+        "value": 29
+      },
+      {
+        "name": "山西省",
+        "value": 32
+      },
+      {
+        "name": "内蒙古自治区",
+        "value": 17
+      },
+      {
+        "name": "新疆维吾尔自治区",
+        "value": 24
+      },
+      {
+        "name": "甘肃省",
+        "value": 10
+      },
+      {
+        "name": "海南省",
+        "value": 14
+      },
+      {
+        "name": "宁夏回族自治区",
+        "value": 14
+      },
+      {
+        "name": "青海省",
+        "value": 6
+      },
+      {
+        "name": "西藏自治区",
+        "value": 8
+      },
+      {
+        "name": "台湾省",
+        "value": 2
+      },
+      {
+        "name": "香港特别行政区",
+        "value": 3
+      },
+      {
+        "name": "澳门特别行政区",
+        "value": 2
+      }
+    ],
+    "region-interactors": [
+      {
+        "name": "广东省",
+        "value": 183
+      },
+      {
+        "name": "山东省",
+        "value": 534
+      },
+      {
+        "name": "河南省",
+        "value": 214
+      },
+      {
+        "name": "江苏省",
+        "value": 76
+      },
+      {
+        "name": "浙江省",
+        "value": 30
+      },
+      {
+        "name": "四川省",
+        "value": 18
+      },
+      {
+        "name": "湖北省",
+        "value": 49
+      },
+      {
+        "name": "湖南省",
+        "value": 33
+      },
+      {
+        "name": "北京市",
+        "value": 22
+      },
+      {
+        "name": "上海市",
+        "value": 14
+      },
+      {
+        "name": "福建省",
+        "value": 10
+      },
+      {
+        "name": "安徽省",
+        "value": 29
+      },
+      {
+        "name": "辽宁省",
+        "value": 21
+      },
+      {
+        "name": "云南省",
+        "value": 14
+      },
+      {
+        "name": "广西壮族自治区",
+        "value": 9
+      },
+      {
+        "name": "河北省",
+        "value": 6
+      },
+      {
+        "name": "陕西省",
+        "value": 19
+      },
+      {
+        "name": "江西省",
+        "value": 13
+      },
+      {
+        "name": "黑龙江省",
+        "value": 8
+      },
+      {
+        "name": "吉林省",
+        "value": 5
+      },
+      {
+        "name": "重庆市",
+        "value": 4
+      },
+      {
+        "name": "贵州省",
+        "value": 12
+      },
+      {
+        "name": "天津市",
+        "value": 8
+      },
+      {
+        "name": "山西省",
+        "value": 5
+      },
+      {
+        "name": "内蒙古自治区",
+        "value": 4
+      },
+      {
+        "name": "新疆维吾尔自治区",
+        "value": 2
+      },
+      {
+        "name": "甘肃省",
+        "value": 6
+      },
+      {
+        "name": "海南省",
+        "value": 4
+      },
+      {
+        "name": "宁夏回族自治区",
+        "value": 2
+      },
+      {
+        "name": "青海省",
+        "value": 1
+      },
+      {
+        "name": "西藏自治区",
+        "value": 1
+      },
+      {
+        "name": "台湾省",
+        "value": 2
+      },
+      {
+        "name": "香港特别行政区",
+        "value": 1
+      },
+      {
+        "name": "澳门特别行政区",
+        "value": 0
+      }
+    ]
+  }
+}

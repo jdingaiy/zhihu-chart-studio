@@ -1954,7 +1954,9 @@
       "ageOpacityMode": "categories",
       "ageBarOpacity": 100,
       "ageBarEndOpacity": 28,
-      "ageBottomRadius": 8
+      "ageBottomRadius": 8,
+      "ageUseGlobalInsets": false,
+      "agePlotPadding": 4
     },
     "age-mobile": {
       "trafficContentFill": true,
@@ -2180,7 +2182,9 @@
       "ageOpacityMode": "categories",
       "ageBarOpacity": 100,
       "ageBarEndOpacity": 28,
-      "ageBottomRadius": 8
+      "ageBottomRadius": 8,
+      "ageUseGlobalInsets": false,
+      "agePlotPadding": 4
     },
     "region-pc": {
       "trafficContentFill": true,

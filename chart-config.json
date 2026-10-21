@@ -1948,7 +1948,13 @@
       "gridOpacity": 100,
       "animationDuration": 400,
       "dataLabel": "读者年龄",
-      "dataUnit": "人"
+      "dataUnit": "人",
+      "ageDistributionWidth": 100,
+      "ageBarGradient": true,
+      "ageOpacityMode": "categories",
+      "ageBarOpacity": 100,
+      "ageBarEndOpacity": 28,
+      "ageBottomRadius": 8
     },
     "age-mobile": {
       "trafficContentFill": true,
@@ -2168,7 +2174,13 @@
       "gridOpacity": 100,
       "animationDuration": 400,
       "dataLabel": "读者年龄",
-      "dataUnit": "人"
+      "dataUnit": "人",
+      "ageDistributionWidth": 100,
+      "ageBarGradient": true,
+      "ageOpacityMode": "categories",
+      "ageBarOpacity": 100,
+      "ageBarEndOpacity": 28,
+      "ageBottomRadius": 8
     },
     "region-pc": {
       "trafficContentFill": true,

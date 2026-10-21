@@ -2388,7 +2388,8 @@
       "gridOpacity": 100,
       "animationDuration": 400,
       "dataLabel": "读者地域",
-      "dataUnit": "%"
+      "dataUnit": "%",
+      "regionColorScale": false
     },
     "region-mobile": {
       "trafficContentFill": true,
@@ -2608,7 +2609,8 @@
       "gridOpacity": 100,
       "animationDuration": 400,
       "dataLabel": "读者地域",
-      "dataUnit": "%"
+      "dataUnit": "%",
+      "regionColorScale": false
     }
   },
   "data": {
